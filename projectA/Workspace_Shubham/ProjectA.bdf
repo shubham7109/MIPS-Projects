@@ -104,9 +104,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 24 64 192 80)
+	(rect 304 400 472 416)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Val_4_Adder" (rect 5 0 66 12)(font "Arial" ))
+	(text "reg_file_reset" (rect 5 0 73 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -119,8 +119,24 @@ refer to the applicable agreement for further details.
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 )
 (pin
+	(input)
+	(rect 0 64 192 80)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "Val_4_Adder[31..0]" (rect 5 0 99 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
-	(rect 1584 416 1760 432)
+	(rect 1576 456 1752 472)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ALU_i_A[31..0]" (rect 90 0 164 12)(font "Arial" ))
 	(pt 0 8)
@@ -136,9 +152,41 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1584 440 1760 456)
+	(rect 1584 480 1760 496)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ALU_i_B[31..0]" (rect 90 0 160 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 2024 360 2200 376)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ALU_out[31..0]" (rect 90 0 164 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1232 -96 1409 -80)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "JA_output[31..0]" (rect 90 0 171 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -434,7 +482,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 936 480 1176 560)
+	(rect 936 528 1176 608)
 	(text "sign_extender_16_32" (rect 5 0 108 12)(font "Arial" ))
 	(text "inst7" (rect 8 64 30 81)(font "Intel Clear" ))
 	(port
@@ -585,7 +633,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 232 128))
 	)
-	(annotation_block (parameter)(rect 2040 96 2272 160))
+	(annotation_block (parameter)(rect 2040 64 2272 128))
 )
 (symbol
 	(rect 1792 -120 1976 -40)
@@ -711,42 +759,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 2120 408 2312 520)
-	(text "mux21_32bit" (rect 5 0 67 12)(font "Arial" ))
-	(text "inst14" (rect 8 96 36 113)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "i_0[31..0]" (rect 0 0 46 12)(font "Arial" ))
-		(text "i_0[31..0]" (rect 21 27 67 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "i_1[31..0]" (rect 0 0 46 12)(font "Arial" ))
-		(text "i_1[31..0]" (rect 21 43 67 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "i_sel" (rect 0 0 22 12)(font "Arial" ))
-		(text "i_sel" (rect 21 59 43 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 192 32)
-		(output)
-		(text "o_mux[31..0]" (rect 0 0 64 12)(font "Arial" ))
-		(text "o_mux[31..0]" (rect 117 27 181 39)(font "Arial" ))
-		(line (pt 192 32)(pt 176 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 176 96))
-	)
-)
-(symbol
 	(rect 944 -8 1168 72)
 	(text "sll_2" (rect 5 0 27 12)(font "Arial" ))
 	(text "inst16" (rect 8 64 36 81)(font "Intel Clear" ))
@@ -766,42 +778,6 @@ refer to the applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 208 64))
-	)
-)
-(symbol
-	(rect 1752 480 1944 592)
-	(text "mux21_32bit" (rect 5 0 67 12)(font "Arial" ))
-	(text "inst17" (rect 8 96 36 113)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "i_0[31..0]" (rect 0 0 46 12)(font "Arial" ))
-		(text "i_0[31..0]" (rect 21 27 67 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "i_1[31..0]" (rect 0 0 46 12)(font "Arial" ))
-		(text "i_1[31..0]" (rect 21 43 67 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "i_sel" (rect 0 0 22 12)(font "Arial" ))
-		(text "i_sel" (rect 21 59 43 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 192 32)
-		(output)
-		(text "o_mux[31..0]" (rect 0 0 64 12)(font "Arial" ))
-		(text "o_mux[31..0]" (rect 117 27 181 39)(font "Arial" ))
-		(line (pt 192 32)(pt 176 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 176 96))
 	)
 )
 (symbol
@@ -948,10 +924,6 @@ refer to the applicable agreement for further details.
 	(pt 240 232)
 )
 (connector
-	(pt 240 232)
-	(pt 184 232)
-)
-(connector
 	(pt 240 184)
 	(pt 488 184)
 )
@@ -962,11 +934,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 464 344)
 	(pt 576 344)
-	(bus)
-)
-(connector
-	(pt 576 344)
-	(pt 576 248)
 	(bus)
 )
 (connector
@@ -1032,11 +999,6 @@ refer to the applicable agreement for further details.
 	(text "o_PC[11..2]" (rect 538 216 593 233)(font "Intel Clear" ))
 	(pt 528 232)
 	(pt 592 232)
-	(bus)
-)
-(connector
-	(pt 192 72)
-	(pt 424 72)
 	(bus)
 )
 (connector
@@ -1133,23 +1095,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 864 512)
-	(pt 936 512)
-	(bus)
-)
-(connector
-	(text "q[31..0]" (rect 843 208 878 225)(font "Intel Clear" ))
-	(pt 840 232)
-	(pt 864 232)
-	(bus)
-)
-(connector
-	(text "q[15..0]" (rect 840 242 857 277)(font "Intel Clear" )(vertical))
-	(pt 864 512)
-	(pt 864 232)
-	(bus)
-)
-(connector
 	(pt 1528 8)
 	(pt 1560 8)
 )
@@ -1204,11 +1149,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 864 232)
-	(pt 928 232)
-	(bus)
-)
-(connector
 	(pt 928 232)
 	(pt 1080 232)
 	(bus)
@@ -1235,11 +1175,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1168 24)
-	(pt 1176 24)
-	(bus)
-)
-(connector
 	(pt 1528 24)
 	(pt 1568 24)
 )
@@ -1251,16 +1186,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1432 328)
 	(pt 1568 328)
-	(bus)
-)
-(connector
-	(pt 1176 512)
-	(pt 1432 512)
-	(bus)
-)
-(connector
-	(pt 1432 512)
-	(pt 1432 344)
 	(bus)
 )
 (connector
@@ -1292,11 +1217,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1600 200)
 	(pt 1584 200)
-	(bus)
-)
-(connector
-	(pt 1080 88)
-	(pt 1080 168)
 	(bus)
 )
 (connector
@@ -1338,31 +1258,6 @@ refer to the applicable agreement for further details.
 	(pt 1536 360)
 )
 (connector
-	(pt 1504 216)
-	(pt 1504 424)
-	(bus)
-)
-(connector
-	(pt 1504 424)
-	(pt 1584 424)
-	(bus)
-)
-(connector
-	(pt 1400 216)
-	(pt 1504 216)
-	(bus)
-)
-(connector
-	(pt 1504 216)
-	(pt 1600 216)
-	(bus)
-)
-(connector
-	(pt 1520 232)
-	(pt 1520 448)
-	(bus)
-)
-(connector
 	(pt 1520 232)
 	(pt 1592 232)
 	(bus)
@@ -1370,11 +1265,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1592 232)
 	(pt 1600 232)
-	(bus)
-)
-(connector
-	(pt 1520 448)
-	(pt 1584 448)
 	(bus)
 )
 (connector
@@ -1393,16 +1283,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 224 264)
 	(pt 224 -168)
-	(bus)
-)
-(connector
-	(pt 1176 24)
-	(pt 1176 -152)
-	(bus)
-)
-(connector
-	(pt 1176 -152)
-	(pt 2272 -152)
 	(bus)
 )
 (connector
@@ -1448,26 +1328,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 2040 -72)
 	(pt 2008 -72)
-)
-(connector
-	(pt 1416 344)
-	(pt 1432 344)
-	(bus)
-)
-(connector
-	(pt 1432 344)
-	(pt 1568 344)
-	(bus)
-)
-(connector
-	(pt 608 56)
-	(pt 640 56)
-	(bus)
-)
-(connector
-	(pt 640 -232)
-	(pt 640 56)
-	(bus)
 )
 (connector
 	(pt 1768 -232)
@@ -1577,11 +1437,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1824 200)
-	(pt 2040 200)
-	(bus)
-)
-(connector
 	(pt 2432 56)
 	(pt 2432 216)
 )
@@ -1614,6 +1469,310 @@ refer to the applicable agreement for further details.
 	(pt 1432 328)
 	(bus)
 )
+(connector
+	(pt 2464 184)
+	(pt 2328 184)
+	(bus)
+)
+(connector
+	(pt 2328 152)
+	(pt 2328 184)
+	(bus)
+)
+(connector
+	(pt 2328 152)
+	(pt 1944 152)
+	(bus)
+)
+(connector
+	(text "ALU_out[11..2]" (rect 1969 184 2039 201)(font "Intel Clear" ))
+	(pt 1944 200)
+	(pt 2040 200)
+	(bus)
+)
+(connector
+	(pt 1992 216)
+	(pt 2040 216)
+	(bus)
+)
+(connector
+	(pt 2040 232)
+	(pt 1976 232)
+)
+(connector
+	(pt 2040 264)
+	(pt 1880 264)
+)
+(connector
+	(pt 1880 88)
+	(pt 1880 264)
+)
+(connector
+	(pt 1880 88)
+	(pt 1528 88)
+)
+(connector
+	(pt 1528 120)
+	(pt 1560 120)
+)
+(connector
+	(pt 1560 160)
+	(pt 1560 120)
+)
+(connector
+	(pt 1560 160)
+	(pt 1184 160)
+)
+(connector
+	(pt 1184 160)
+	(pt 1184 296)
+)
+(connector
+	(pt 1184 296)
+	(pt 1192 296)
+)
+(connector
+	(pt 1192 312)
+	(pt 1176 312)
+)
+(connector
+	(pt 1176 312)
+	(pt 1176 408)
+)
+(connector
+	(pt 1176 408)
+	(pt 472 408)
+)
+(connector
+	(pt 1192 264)
+	(pt 1144 264)
+	(bus)
+)
+(connector
+	(pt 1144 264)
+	(pt 1144 440)
+	(bus)
+)
+(connector
+	(pt 864 560)
+	(pt 936 560)
+	(bus)
+)
+(connector
+	(text "q[15..0]" (rect 840 242 857 277)(font "Intel Clear" )(vertical))
+	(pt 864 232)
+	(pt 864 560)
+	(bus)
+)
+(connector
+	(pt 1432 560)
+	(pt 1176 560)
+	(bus)
+)
+(connector
+	(pt 1432 344)
+	(pt 1432 560)
+	(bus)
+)
+(connector
+	(text "q[31..0]" (rect 843 208 878 225)(font "Intel Clear" ))
+	(pt 840 232)
+	(pt 864 232)
+	(bus)
+)
+(connector
+	(pt 864 232)
+	(pt 928 232)
+	(bus)
+)
+(connector
+	(pt 1416 344)
+	(pt 1432 344)
+	(bus)
+)
+(connector
+	(pt 1432 344)
+	(pt 1568 344)
+	(bus)
+)
+(connector
+	(pt 1976 232)
+	(pt 1976 520)
+)
+(connector
+	(pt 200 520)
+	(pt 1976 520)
+)
+(connector
+	(pt 200 232)
+	(pt 200 520)
+)
+(connector
+	(pt 184 232)
+	(pt 200 232)
+)
+(connector
+	(pt 200 232)
+	(pt 240 232)
+)
+(connector
+	(pt 1992 512)
+	(pt 576 512)
+	(bus)
+)
+(connector
+	(pt 1992 216)
+	(pt 1992 512)
+	(bus)
+)
+(connector
+	(pt 576 248)
+	(pt 576 344)
+	(bus)
+)
+(connector
+	(pt 576 344)
+	(pt 576 512)
+	(bus)
+)
+(connector
+	(pt 1520 232)
+	(pt 1520 488)
+	(bus)
+)
+(connector
+	(pt 1520 488)
+	(pt 1584 488)
+	(bus)
+)
+(connector
+	(pt 1504 216)
+	(pt 1504 464)
+	(bus)
+)
+(connector
+	(pt 1504 464)
+	(pt 1576 464)
+	(bus)
+)
+(connector
+	(pt 1400 216)
+	(pt 1504 216)
+	(bus)
+)
+(connector
+	(pt 1504 216)
+	(pt 1600 216)
+	(bus)
+)
+(connector
+	(pt 2680 440)
+	(pt 1144 440)
+	(bus)
+)
+(connector
+	(pt 2656 184)
+	(pt 2680 184)
+	(bus)
+)
+(connector
+	(pt 2680 184)
+	(pt 2680 440)
+	(bus)
+)
+(connector
+	(pt 192 72)
+	(pt 424 72)
+	(bus)
+)
+(connector
+	(text "q[31..0]" (rect 1056 114 1073 149)(font "Intel Clear" )(vertical))
+	(pt 1080 88)
+	(pt 1080 168)
+	(bus)
+)
+(connector
+	(text "ALU_out[31..0]" (rect 1920 124 1937 194)(font "Intel Clear" )(vertical))
+	(pt 1944 200)
+	(pt 1944 152)
+	(bus)
+)
+(connector
+	(pt 608 56)
+	(pt 640 56)
+	(bus)
+)
+(connector
+	(text "PC[31..0]" (rect 616 -71 633 -28)(font "Intel Clear" )(vertical))
+	(pt 640 -152)
+	(pt 640 56)
+	(bus)
+)
+(connector
+	(text "JA[27..0]" (rect 1168 -86 1185 -44)(font "Intel Clear" )(vertical))
+	(pt 1192 -152)
+	(pt 1192 24)
+	(bus)
+)
+(connector
+	(text "PC[31..28]" (rect 810 -168 859 -151)(font "Intel Clear" ))
+	(pt 640 -152)
+	(pt 1192 -152)
+	(bus)
+)
+(connector
+	(text "JA[31..0]" (rect 1168 8 1210 25)(font "Intel Clear" ))
+	(pt 1168 24)
+	(pt 1192 24)
+	(bus)
+)
+(connector
+	(text "PC[31..0]" (rect 624 -215 641 -172)(font "Intel Clear" )(vertical))
+	(pt 640 -232)
+	(pt 640 -152)
+	(bus)
+)
+(connector
+	(pt 1856 368)
+	(pt 2024 368)
+	(bus)
+)
+(connector
+	(pt 1856 200)
+	(pt 1856 368)
+	(bus)
+)
+(connector
+	(pt 1824 200)
+	(pt 1856 200)
+	(bus)
+)
+(connector
+	(pt 1856 200)
+	(pt 1944 200)
+	(bus)
+)
+(connector
+	(pt 1216 -152)
+	(pt 1216 -88)
+	(bus)
+)
+(connector
+	(pt 1216 -88)
+	(pt 1232 -88)
+	(bus)
+)
+(connector
+	(pt 1192 -152)
+	(pt 1216 -152)
+	(bus)
+)
+(connector
+	(text "JA[31..0]" (rect 1202 -168 1244 -151)(font "Intel Clear" ))
+	(pt 1216 -152)
+	(pt 2272 -152)
+	(bus)
+)
 (junction (pt 240 232))
 (junction (pt 528 232))
 (junction (pt 488 184))
@@ -1628,3 +1787,10 @@ refer to the applicable agreement for further details.
 (junction (pt 1432 344))
 (junction (pt 1768 -136))
 (junction (pt 1432 288))
+(junction (pt 1944 200))
+(junction (pt 576 344))
+(junction (pt 200 232))
+(junction (pt 640 -152))
+(junction (pt 1192 -152))
+(junction (pt 1856 200))
+(junction (pt 1216 -152))
