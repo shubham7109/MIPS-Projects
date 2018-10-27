@@ -18,28 +18,28 @@ Z5 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd
 Z6 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd
 l0
 L5
-VeK[12<UiLG]a1CP3HC_eY3
+VOoV@@28I?UWo8G78Bh8?O1
 !s100 egmg<On7Df2]T:f6g5hnM0
 Z7 OL;C;10.5b;63
 32
-Z8 !s110 1540169217
+Z8 !s110 1540680610
 !i10b 1
-Z9 !s108 1540169217.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd|
+Z9 !s108 1540680609.000000
+Z10 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd|
 Z11 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd|
 !i113 0
-Z12 o-work work -2002 -explicit
+Z12 o-work work
 Z13 tExplicit 1 CvgOpt 0
 Amixed
 R1
 R2
 R3
-DEx4 work 8 adder_32 0 22 eK[12<UiLG]a1CP3HC_eY3
+DEx4 work 8 adder_32 0 22 OoV@@28I?UWo8G78Bh8?O1
 32
 R8
 l12
 L10
-VnT?UOP6K@c^]PY1SnICWA0
+VL=Z?ME<?@_NzjScO5cJa@3
 !s100 S]T[0gc@lD5;NQmc<dko_0
 R7
 !i10b 1
@@ -59,15 +59,15 @@ Z15 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd
 Z16 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd
 l0
 L5
-VNKag>E1^__L1cUUkNTIOW2
+Vf>7RfL[XQ:4nQeF=m[WXT2
 !s100 Z8@PE[3L6GO25hoSiQKiA0
 R7
 32
-Z17 !s110 1540169218
+Z17 !s110 1540680611
 !i10b 1
-R9
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd|
-Z19 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd|
+Z18 !s108 1540680610.000000
+Z19 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd|
+Z20 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd|
 !i113 0
 R12
 R13
@@ -75,40 +75,40 @@ Amixed
 R1
 R2
 R3
-DEx4 work 3 alu 0 22 NKag>E1^__L1cUUkNTIOW2
+DEx4 work 3 alu 0 22 f>7RfL[XQ:4nQeF=m[WXT2
 32
 R17
 l18
 L14
-VmmFXBXYfOmV2R1kb9gk;U0
+V:CBem1Z_gLS6@@WNn_J>E1
 !s100 Z>]N[e?I0aF^P^J25J:fe3
 R7
 !i10b 1
-R9
 R18
 R19
+R20
 !i113 0
 R12
 R13
 Eand_2
-Z20 w1489016836
+Z21 w1489016836
 R1
 R2
 R3
 R4
-Z21 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd
-Z22 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd
+Z22 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd
+Z23 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd
 l0
 L5
-VBUBWRAc4f>HDYK<64iaVQ1
+VE7^Nc5bBgFC3Z8bU1NkU?1
 !s100 CzU<26n4<nAXZ?hl60M8<3
 R7
 32
 R17
 !i10b 1
-Z23 !s108 1540169218.000000
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd|
-Z25 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd|
+Z24 !s108 1540680611.000000
+Z25 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd|
+Z26 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd|
 !i113 0
 R12
 R13
@@ -116,126 +116,208 @@ Amixed
 R1
 R2
 R3
-DEx4 work 5 and_2 0 22 BUBWRAc4f>HDYK<64iaVQ1
+DEx4 work 5 and_2 0 22 E7^Nc5bBgFC3Z8bU1NkU?1
 l12
 L10
-VG50O?a?iRe]i[80:BLWIT2
+VdHEMM3@[cgeoaf`8RKb?J2
 !s100 0^FjP8o4ZMzD?4]ZRjG8o0
 R7
 32
 R17
 !i10b 1
-R23
 R24
 R25
+R26
 !i113 0
 R12
 R13
-Edmem
-Z26 w1488837934
-Z27 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Ebit32_mux_2to1
+Z27 w1540679878
+R1
 R2
 R3
 R4
-Z29 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd
-Z30 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd
+Z28 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/bit32_mux_2to1.vhd
+Z29 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/bit32_mux_2to1.vhd
 l0
-L24
-ViQOOl:HY^3d0`6XdCmn?^1
-!s100 nXG04B1NNg?Qj;_6dQ?`_1
+L5
+V;_dLh?oAjc_H9hc;c_Cg62
+!s100 iI>T^5EnH@Vn82Y:4S=_j2
 R7
 32
-R17
+Z30 !s110 1540680612
 !i10b 1
-R23
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd|
-Z32 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd|
+R24
+Z31 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/bit32_mux_2to1.vhd|
+Z32 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/bit32_mux_2to1.vhd|
 !i113 0
 R12
 R13
-Abehavioral
-R27
-R28
+Amixed
+R1
 R2
 R3
-DEx4 work 4 dmem 0 22 iQOOl:HY^3d0`6XdCmn?^1
+DEx4 work 14 bit32_mux_2to1 0 22 ;_dLh?oAjc_H9hc;c_Cg62
 32
-R17
-l482
-L35
-VN4f;QZ?]B^0N_0z2[ZM1c3
-!s100 jbhn^6;Eh_C3g@l>dOo4U0
+R30
+l13
+L11
+V_D02lMFj3TYJ;X=>eE@8^3
+!s100 2>=`O8oG?z5a3UEkZkVIL2
 R7
 !i10b 1
-R23
+R24
 R31
 R32
 !i113 0
 R12
 R13
-Eimem
-Z33 w1488837948
-R27
-R28
+Edmem
+Z33 w1488837934
+Z34 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R2
 R3
 R4
-Z34 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd
-Z35 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd
+Z36 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd
+Z37 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd
 l0
 L24
-VjXhbBJffKcnG98J4k;oNl2
-!s100 ;:C@ekial1:hh0oimdP3>3
+VSdR;fG4IObD@Fl:UmGjc33
+!s100 nXG04B1NNg?Qj;_6dQ?`_1
 R7
 32
-Z36 !s110 1540169219
+R30
 !i10b 1
-R23
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd|
-Z38 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd|
+Z38 !s108 1540680612.000000
+Z39 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd|
+Z40 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd|
 !i113 0
 R12
 R13
 Abehavioral
-R27
-R28
+R34
+R35
 R2
 R3
-DEx4 work 4 imem 0 22 jXhbBJffKcnG98J4k;oNl2
+DEx4 work 4 dmem 0 22 SdR;fG4IObD@Fl:UmGjc33
 32
-R36
+R30
 l482
 L35
-Vm?YB5bKRQ12OK21KHa^^S2
+V_4na40bLM0fnijo=PiVE42
+!s100 jbhn^6;Eh_C3g@l>dOo4U0
+R7
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R12
+R13
+Eimem
+Z41 w1488837948
+R34
+R35
+R2
+R3
+R4
+Z42 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd
+Z43 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd
+l0
+L24
+VQ7P:dbMzVmNaDUb1_:IVk0
+!s100 ;:C@ekial1:hh0oimdP3>3
+R7
+32
+Z44 !s110 1540680613
+!i10b 1
+R38
+Z45 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd|
+Z46 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R34
+R35
+R2
+R3
+DEx4 work 4 imem 0 22 Q7P:dbMzVmNaDUb1_:IVk0
+32
+R44
+l482
+L35
+V<:Z5On@^KZViVV7LjCG1Z3
 !s100 6UBLDD7nKFLM30^2gU3ok2
 R7
 !i10b 1
-R23
-R37
 R38
+R45
+R46
+!i113 0
+R12
+R13
+Ejumphandler
+Z47 w1540678350
+R1
+R2
+R3
+R4
+Z48 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/jumpHandler.vhd
+Z49 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/jumpHandler.vhd
+l0
+L5
+V8cUcgmPLQzlo4[C?GP4K@1
+!s100 fVfSYQIJZ3g2RbLBLeGz=3
+R7
+32
+R44
+!i10b 1
+Z50 !s108 1540680613.000000
+Z51 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/jumpHandler.vhd|
+Z52 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/jumpHandler.vhd|
+!i113 0
+R12
+R13
+Amixed
+R1
+R2
+R3
+DEx4 work 11 jumphandler 0 22 8cUcgmPLQzlo4[C?GP4K@1
+l14
+L12
+VCW[CHblLlzz77O@QYdL>n3
+!s100 O_K:WQPDWSNHC0nnSJ2IO0
+R7
+32
+R44
+!i10b 1
+R50
+R51
+R52
 !i113 0
 R12
 R13
 Emain_control
-Z39 w1490063108
+Z53 w1540677964
 R1
 R2
 R3
 R4
-Z40 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd
-Z41 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd
+Z54 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd
+Z55 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd
 l0
 L5
-Vz8;kVNm:XoMbnJdfI8c9]0
+VFRNRWa1UfO_>AOz:8CUZF3
 !s100 i^g9aQzd4?KVgPb7ZUn>23
 R7
 32
-R36
+Z56 !s110 1540680614
 !i10b 1
-Z42 !s108 1540169219.000000
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd|
-Z44 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd|
+Z57 !s108 1540680614.000000
+Z58 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd|
+Z59 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd|
 !i113 0
 R12
 R13
@@ -243,40 +325,40 @@ Amixed
 R1
 R2
 R3
-DEx4 work 12 main_control 0 22 z8;kVNm:XoMbnJdfI8c9]0
+DEx4 work 12 main_control 0 22 FRNRWa1UfO_>AOz:8CUZF3
 32
-R36
+R56
 l24
 L18
-VO;H:2@7PDdmQKkdjCXgP]2
-!s100 =?98eiYACQWM=RA1HcYEZ0
+VAFd[gJWC9`^>b7X^`LOoV0
+!s100 W[9@7P9IR351>jc@A]fAc3
 R7
 !i10b 1
-R42
-R43
-R44
+R57
+R58
+R59
 !i113 0
 R12
 R13
 Emux21_1bit
-Z45 w1489019794
+Z60 w1489019794
 R1
 R2
 R3
 R4
-Z46 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd
-Z47 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd
+Z61 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd
+Z62 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd
 l0
 L5
-V5ad@XP^_T>A>>_lTei:zI3
+VlF1Cj@36E6km`3JPPA9=O1
 !s100 SIHe3]Q60iOJ5h=e5=^Dc0
 R7
 32
-Z48 !s110 1540169220
+Z63 !s110 1540680615
 !i10b 1
-R42
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd|
-Z50 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd|
+R57
+Z64 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd|
+Z65 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd|
 !i113 0
 R12
 R13
@@ -284,40 +366,40 @@ Amixed
 R1
 R2
 R3
-DEx4 work 10 mux21_1bit 0 22 5ad@XP^_T>A>>_lTei:zI3
+DEx4 work 10 mux21_1bit 0 22 lF1Cj@36E6km`3JPPA9=O1
 l13
 L11
-V@W`aza?EkYE4NmOF0n^6G3
+V87U:b22USN0kNIY`b[3_[1
 !s100 Q1ING><NR6emP3?XbAW[I1
 R7
 32
-R48
+R63
 !i10b 1
-R42
-R49
-R50
+R57
+R64
+R65
 !i113 0
 R12
 R13
 Emux21_5bit
-Z51 w1489019768
+Z66 w1489019768
 R1
 R2
 R3
 R4
-Z52 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd
-Z53 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd
+Z67 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd
+Z68 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd
 l0
 L5
-V?alb?N<RzYheEJOH4OhoE1
+VTY2D`W;]i`OAP3ZM4@^]O2
 !s100 3Ke0CNONJ:gj14j=ck<Z?3
 R7
 32
-R48
+R63
 !i10b 1
-Z54 !s108 1540169220.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd|
-Z56 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd|
+Z69 !s108 1540680615.000000
+Z70 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd|
+Z71 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd|
 !i113 0
 R12
 R13
@@ -325,118 +407,118 @@ Amixed
 R1
 R2
 R3
-DEx4 work 10 mux21_5bit 0 22 ?alb?N<RzYheEJOH4OhoE1
+DEx4 work 10 mux21_5bit 0 22 TY2D`W;]i`OAP3ZM4@^]O2
 32
-R48
+R63
 l13
 L11
-VKih<fU?je7_ga?moDPmQn2
+VoH[;KIQn0<=SDnZ;KUcbK0
 !s100 ZCiZ4l:7ikI<3HzVb[cmM0
 R7
 !i10b 1
-R54
-R55
-R56
+R69
+R70
+R71
 !i113 0
 R12
 R13
 Emux32bit_2to1
-Z57 w1540165005
+Z72 w1540676588
 R2
 R3
 R4
-Z58 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd
-Z59 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd
+Z73 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd
+Z74 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd
 l0
 L6
-V[6OG<4zZFm@laSHKjm2BF1
+VHb>cU;g7ZBZiXj:6f0aBG2
 !s100 _k690eA78z:?k80<]>nRm0
 R7
 32
-R48
+R63
 !i10b 1
-R54
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd|
-Z61 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd|
+R69
+Z75 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd|
+Z76 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd|
 !i113 0
 R12
 R13
 Astructure
 R2
 R3
-DEx4 work 13 mux32bit_2to1 0 22 [6OG<4zZFm@laSHKjm2BF1
+DEx4 work 13 mux32bit_2to1 0 22 Hb>cU;g7ZBZiXj:6f0aBG2
 l19
 L15
-VF=XU]f3K;N?I^a8SoX[YM3
+Vd1J0@mNMSaM:dk:SIa2mV2
 !s100 QA3ojFbH]k>Dl43AM6e980
 R7
 32
-R48
+R63
 !i10b 1
-R54
-R60
-R61
+R69
+R75
+R76
 !i113 0
 R12
 R13
 Emux_bit32_2to1
-Z62 w1540165136
+R72
 R2
 R3
 R4
-Z63 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd
-Z64 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd
+Z77 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd
+Z78 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd
 l0
 L6
-VI;J4Z9@oRH4S:M_64Yh]J1
+VaoKgcLJV=:TL2bIDC_zhU2
 !s100 Y8fdn0z476ZmH>SV<kI[W1
 R7
 32
-R36
+R56
 !i10b 1
-R42
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd|
-Z66 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd|
+R57
+Z79 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd|
+Z80 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd|
 !i113 0
 R12
 R13
 Astructure
 R2
 R3
-DEx4 work 14 mux_bit32_2to1 0 22 I;J4Z9@oRH4S:M_64Yh]J1
+DEx4 work 14 mux_bit32_2to1 0 22 aoKgcLJV=:TL2bIDC_zhU2
 l19
 L15
-V::gZ@?k@J1AlcXHQzbgDN3
+V@[Pco0813lZ4>>dYaH[B53
 !s100 ^68fYb2?RG?226]nIVZ`12
 R7
 32
-R36
+R56
 !i10b 1
-R42
-R65
-R66
+R57
+R79
+R80
 !i113 0
 R12
 R13
 Epc_reg
-Z67 w1488848766
+Z81 w1488848766
 R1
 R2
 R3
 R4
-Z68 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd
-Z69 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd
+Z82 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd
+Z83 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd
 l0
 L5
-VG_[M=?5M_=5BDSA_U5hfM3
+VnebRUjePfQ]Y3aj8L]Rn21
 !s100 Q8O6zXj5djFDL<m`iT67k2
 R7
 32
-Z70 !s110 1540169221
+Z84 !s110 1540680616
 !i10b 1
-Z71 !s108 1540169221.000000
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd|
-Z73 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd|
+Z85 !s108 1540680616.000000
+Z86 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd|
+Z87 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd|
 !i113 0
 R12
 R13
@@ -444,161 +526,79 @@ Amixed
 R1
 R2
 R3
-DEx4 work 6 pc_reg 0 22 G_[M=?5M_=5BDSA_U5hfM3
+DEx4 work 6 pc_reg 0 22 nebRUjePfQ]Y3aj8L]Rn21
 32
-R70
+R84
 l14
 L12
-V@@bk<eaH9jVQ2<5LFfJ<43
+Vi7z8<N_6e@nSzzZWU=[8d1
 !s100 jFA0E5no>ZWVVAWi><UPE0
 R7
 !i10b 1
-R71
-R72
-R73
+R85
+R86
+R87
 !i113 0
 R12
 R13
 Eprojecta
-Z74 w1540332979
+Z88 w1540680332
 R2
 R3
 R4
-Z75 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd
-Z76 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd
+Z89 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd
+Z90 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd
 l0
 L24
-VQn@NbE4OnlS40ZGI7k>gf1
-!s100 @k<aSL=9;AQf]1d_mKJag0
+V?FTBK6^0V4<Y`LKZz[EG62
+!s100 H^SAUnG9L09eT>P;:mR5V3
 R7
 32
-Z77 !s110 1540333001
+Z91 !s110 1540680617
 !i10b 1
-Z78 !s108 1540333001.000000
-Z79 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd|
-Z80 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd|
+R85
+Z92 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd|
+Z93 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd|
 !i113 0
-Z81 o-work work
+R12
 R13
 Abdf_type
 R2
 R3
-DEx4 work 8 projecta 0 22 Qn@NbE4OnlS40ZGI7k>gf1
+DEx4 work 8 projecta 0 22 ?FTBK6^0V4<Y`LKZz[EG62
 32
-R77
-l183
-L41
-VFCk:@0:K8n]8HG<i1BeYh3
-!s100 6MR==iJCkSP>7`5ihWMg00
-R7
-!i10b 1
-R78
-R79
-R80
-!i113 0
-R81
-R13
-Eregister_file
-Z82 w1490136922
-R1
-R2
-R3
-R4
-Z83 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd
-Z84 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd
-l0
-L5
-VOV4<M?_bVai1H3P^2ek7B3
-!s100 0;6l8OR7N:fQ8?E^89Gj30
-R7
-32
-R70
-!i10b 1
-R71
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd|
-Z86 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd|
-!i113 0
-R12
-R13
-Amixed
-R1
-R2
-R3
-DEx4 work 13 register_file 0 22 OV4<M?_bVai1H3P^2ek7B3
-32
-R70
-l23
-L17
-V6hAG_jKKW:RFid1Rim^[?2
-!s100 =e71@BHU0zWCFFFDoj23`3
-R7
-!i10b 1
-R71
-R85
-R86
-!i113 0
-R12
-R13
-Esign_extender_16_32
-Z87 w1488835800
-R1
-R2
-R3
-R4
-Z88 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd
-Z89 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd
-l0
-L5
-V[i9oH0;lk]ZoBPS:<349D2
-!s100 fG?LOX^^lH4;UE9fMB]Z^2
-R7
-32
-Z90 !s110 1540169222
-!i10b 1
-Z91 !s108 1540169222.000000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd|
-Z93 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd|
-!i113 0
-R12
-R13
-Amixed
-R1
-R2
-R3
-DEx4 work 19 sign_extender_16_32 0 22 [i9oH0;lk]ZoBPS:<349D2
-32
-R90
-l12
-L10
-VFZPPX5MQTlEI]Pa9c=nc;0
-!s100 @@jWTG6SS0InUNlbG;c2R3
-R7
-!i10b 1
 R91
+l185
+L43
+V>8nkT<BZdzfMQ[fj]>][53
+!s100 5E`3=GaNR3Rdc76efaDNb1
+R7
+!i10b 1
+R85
 R92
 R93
 !i113 0
 R12
 R13
-Esign_extender_26_32
-Z94 w1540163586
+Eregister_file
+Z94 w1490136922
 R1
 R2
 R3
 R4
-Z95 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd
-Z96 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd
+Z95 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd
+Z96 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd
 l0
 L5
-VM[<nLcb:5d`Uo>fALH63>0
-!s100 Z<b6VF[kVke:ZI;SlWfnJ1
+VQ6leQA8D^DY66f;oFFWLY2
+!s100 0;6l8OR7N:fQ8?E^89Gj30
 R7
 32
-R90
-!i10b 1
 R91
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd|
-Z98 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd|
+!i10b 1
+Z97 !s108 1540680617.000000
+Z98 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd|
+Z99 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd|
 !i113 0
 R12
 R13
@@ -606,40 +606,122 @@ Amixed
 R1
 R2
 R3
-DEx4 work 19 sign_extender_26_32 0 22 M[<nLcb:5d`Uo>fALH63>0
+DEx4 work 13 register_file 0 22 Q6leQA8D^DY66f;oFFWLY2
 32
-R90
+R91
+l23
+L17
+V^Y?YIbgn^<S2d`0^AMXA@1
+!s100 =e71@BHU0zWCFFFDoj23`3
+R7
+!i10b 1
+R97
+R98
+R99
+!i113 0
+R12
+R13
+Esign_extender_16_32
+Z100 w1488835800
+R1
+R2
+R3
+R4
+Z101 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd
+Z102 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd
+l0
+L5
+VaN?9MoJDKib6EW:O0O1:a1
+!s100 fG?LOX^^lH4;UE9fMB]Z^2
+R7
+32
+R91
+!i10b 1
+R97
+Z103 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd|
+Z104 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd|
+!i113 0
+R12
+R13
+Amixed
+R1
+R2
+R3
+DEx4 work 19 sign_extender_16_32 0 22 aN?9MoJDKib6EW:O0O1:a1
+32
+R91
 l12
 L10
-Vcj0F]5lg073ahgE]dKUaN0
+VMYK5R2Ll3Sen342GSSBX^0
+!s100 @@jWTG6SS0InUNlbG;c2R3
+R7
+!i10b 1
+R97
+R103
+R104
+!i113 0
+R12
+R13
+Esign_extender_26_32
+Z105 w1540676589
+R1
+R2
+R3
+R4
+Z106 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd
+Z107 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd
+l0
+L5
+V6V4hiPT7J[[eXn3Bf3gZ:0
+!s100 Z<b6VF[kVke:ZI;SlWfnJ1
+R7
+32
+Z108 !s110 1540680618
+!i10b 1
+Z109 !s108 1540680618.000000
+Z110 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd|
+Z111 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd|
+!i113 0
+R12
+R13
+Amixed
+R1
+R2
+R3
+DEx4 work 19 sign_extender_26_32 0 22 6V4hiPT7J[[eXn3Bf3gZ:0
+32
+R108
+l12
+L10
+VIflOa_z]Fo5Flc2I<QPHP0
 !s100 g@[NUmSJk=6L>`ZO<Qg?k3
 R7
 !i10b 1
-R91
-R97
-R98
+R109
+R110
+R111
 !i113 0
 R12
 R13
 Esll_2
-Z99 w1488837096
+Z112 w1488837096
 R1
 R2
 R3
 R4
-Z100 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd
-Z101 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd
+Z113 8U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd
+Z114 FU:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd
 l0
 L6
-VcE08ijZ=8FTSPE=VX_@Zc3
+VXc@hB9XhAN6zgZmeZB3FW1
 !s100 F_z?LI[IV_bC@Y_G05@mn2
 R7
 32
-R8
+R108
 !i10b 1
-R9
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd|
-Z103 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd|
+R109
+Z115 !s90 -reportprogress|30|-work|work|U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd|
+Z116 !s107 U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd|
 !i113 0
 R12
 R13
@@ -647,18 +729,18 @@ Amixed
 R1
 R2
 R3
-DEx4 work 5 sll_2 0 22 cE08ijZ=8FTSPE=VX_@Zc3
+DEx4 work 5 sll_2 0 22 Xc@hB9XhAN6zgZmeZB3FW1
 32
-R8
+R108
 l13
 L11
-Vn>RQ=_G7o?E0[Mj:okHHC2
+VSkZT83;V9zFeL7dzb;4a21
 !s100 8;o^EcbggZLl8njhZbT;02
 R7
 !i10b 1
-R9
-R102
-R103
+R109
+R115
+R116
 !i113 0
 R12
 R13
