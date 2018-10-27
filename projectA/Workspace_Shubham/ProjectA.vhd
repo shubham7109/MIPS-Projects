@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition"
--- CREATED		"Sat Oct 27 17:45:32 2018"
+-- CREATED		"Sat Oct 27 18:52:27 2018"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -31,11 +31,19 @@ ENTITY ProjectA IS
 		byteena :  IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
 		data :  IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		Val_4_Adder :  IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
+		o_ALU_src :  OUT  STD_LOGIC;
+		o_mem_write :  OUT  STD_LOGIC;
+		o_reg_write :  OUT  STD_LOGIC;
+		o_reg_dest :  OUT  STD_LOGIC;
+		o_jump :  OUT  STD_LOGIC;
+		o_branch :  OUT  STD_LOGIC;
+		o_mem_to_reg :  OUT  STD_LOGIC;
 		ALU_i_A :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALU_i_B :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALU_out :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		imem_output :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		JA_output :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
+		o_ALU_op :  OUT  STD_LOGIC_VECTOR(3 DOWNTO 0);
 		PC_input :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0)
 	);
 END ProjectA;
@@ -183,8 +191,16 @@ SIGNAL	SYNTHESIZED_WIRE_22 :  STD_LOGIC;
 
 
 BEGIN 
+o_ALU_src <= SYNTHESIZED_WIRE_9;
+o_mem_write <= SYNTHESIZED_WIRE_22;
+o_reg_write <= SYNTHESIZED_WIRE_19;
+o_reg_dest <= SYNTHESIZED_WIRE_18;
+o_jump <= SYNTHESIZED_WIRE_16;
+o_branch <= SYNTHESIZED_WIRE_7;
+o_mem_to_reg <= SYNTHESIZED_WIRE_12;
 ALU_i_A <= SYNTHESIZED_WIRE_1;
 ALU_i_B <= SYNTHESIZED_WIRE_2;
+o_ALU_op <= SYNTHESIZED_WIRE_0;
 
 
 

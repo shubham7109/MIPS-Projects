@@ -230,6 +230,134 @@ refer to the applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 1640 -368 1816 -352)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_ALU_src" (rect 90 0 144 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -352 1816 -336)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_mem_write" (rect 90 0 156 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -336 1816 -320)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_reg_write" (rect 90 0 146 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -320 1816 -304)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_reg_dest" (rect 90 0 143 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -304 1816 -288)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_jump" (rect 90 0 125 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -288 1816 -272)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_branch" (rect 90 0 133 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -272 1816 -256)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_ALU_op[3..0]" (rect 90 0 163 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1640 -256 1816 -240)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "o_mem_to_reg" (rect 90 0 163 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 1600 152 1824 264)
 	(text "ALU" (rect 5 0 26 12)(font "Arial" ))
@@ -1120,18 +1248,6 @@ refer to the applicable agreement for further details.
 	(pt 1560 8)
 )
 (connector
-	(pt 1560 8)
-	(pt 1560 -56)
-)
-(connector
-	(pt 1208 -56)
-	(pt 1560 -56)
-)
-(connector
-	(pt 1208 -56)
-	(pt 1208 144)
-)
-(connector
 	(pt 1208 144)
 	(pt 880 144)
 )
@@ -1215,11 +1331,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1592 72)
-	(pt 1592 184)
-	(bus)
-)
-(connector
 	(pt 1600 184)
 	(pt 1592 184)
 	(bus)
@@ -1271,10 +1382,6 @@ refer to the applicable agreement for further details.
 	(pt 1536 104)
 )
 (connector
-	(pt 1536 360)
-	(pt 1536 104)
-)
-(connector
 	(pt 1568 360)
 	(pt 1536 360)
 )
@@ -1287,10 +1394,6 @@ refer to the applicable agreement for further details.
 	(pt 1592 232)
 	(pt 1600 232)
 	(bus)
-)
-(connector
-	(pt 1568 24)
-	(pt 1568 -192)
 )
 (connector
 	(pt 1568 -192)
@@ -1309,10 +1412,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1528 40)
 	(pt 1584 40)
-)
-(connector
-	(pt 1584 40)
-	(pt 1584 -24)
 )
 (connector
 	(pt 1584 -24)
@@ -1449,10 +1548,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1528 56)
-	(pt 2432 56)
-)
-(connector
 	(pt 1832 248)
 	(pt 2040 248)
 	(bus)
@@ -1527,22 +1622,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1880 88)
 	(pt 1880 264)
-)
-(connector
-	(pt 1880 88)
-	(pt 1528 88)
-)
-(connector
-	(pt 1528 120)
-	(pt 1560 120)
-)
-(connector
-	(pt 1560 160)
-	(pt 1560 120)
-)
-(connector
-	(pt 1560 160)
-	(pt 1184 160)
 )
 (connector
 	(pt 1184 160)
@@ -1836,6 +1915,129 @@ refer to the applicable agreement for further details.
 	(pt 872 232)
 	(bus)
 )
+(connector
+	(pt 1208 144)
+	(pt 1208 -56)
+)
+(connector
+	(pt 1208 -56)
+	(pt 1560 -56)
+)
+(connector
+	(pt 1536 104)
+	(pt 1536 360)
+)
+(connector
+	(pt 1528 120)
+	(pt 1552 120)
+)
+(connector
+	(pt 1184 160)
+	(pt 1552 160)
+)
+(connector
+	(pt 1600 -248)
+	(pt 1600 56)
+)
+(connector
+	(pt 1600 -248)
+	(pt 1640 -248)
+)
+(connector
+	(pt 1528 56)
+	(pt 1600 56)
+)
+(connector
+	(pt 1600 56)
+	(pt 2432 56)
+)
+(connector
+	(pt 1592 -264)
+	(pt 1640 -264)
+	(bus)
+)
+(connector
+	(pt 1592 -264)
+	(pt 1592 72)
+	(bus)
+)
+(connector
+	(pt 1592 72)
+	(pt 1592 184)
+	(bus)
+)
+(connector
+	(pt 1584 -280)
+	(pt 1640 -280)
+)
+(connector
+	(pt 1584 -280)
+	(pt 1584 -24)
+)
+(connector
+	(pt 1584 -24)
+	(pt 1584 40)
+)
+(connector
+	(pt 1568 -296)
+	(pt 1640 -296)
+)
+(connector
+	(pt 1568 -296)
+	(pt 1568 -192)
+)
+(connector
+	(pt 1568 -192)
+	(pt 1568 24)
+)
+(connector
+	(pt 1560 -312)
+	(pt 1640 -312)
+)
+(connector
+	(pt 1560 -312)
+	(pt 1560 -56)
+)
+(connector
+	(pt 1560 -56)
+	(pt 1560 8)
+)
+(connector
+	(pt 1552 -328)
+	(pt 1640 -328)
+)
+(connector
+	(pt 1552 -328)
+	(pt 1552 120)
+)
+(connector
+	(pt 1552 120)
+	(pt 1552 160)
+)
+(connector
+	(pt 1544 -344)
+	(pt 1544 88)
+)
+(connector
+	(pt 1544 -344)
+	(pt 1640 -344)
+)
+(connector
+	(pt 1528 88)
+	(pt 1544 88)
+)
+(connector
+	(pt 1544 88)
+	(pt 1880 88)
+)
+(connector
+	(pt 1536 -360)
+	(pt 1536 104)
+)
+(connector
+	(pt 1536 -360)
+	(pt 1640 -360)
+)
 (junction (pt 240 232))
 (junction (pt 528 232))
 (junction (pt 488 184))
@@ -1859,3 +2061,11 @@ refer to the applicable agreement for further details.
 (junction (pt 1216 -152))
 (junction (pt 504 232))
 (junction (pt 872 232))
+(junction (pt 1560 -56))
+(junction (pt 1568 -192))
+(junction (pt 1584 -24))
+(junction (pt 1600 56))
+(junction (pt 1592 72))
+(junction (pt 1544 88))
+(junction (pt 1536 104))
+(junction (pt 1552 120))
