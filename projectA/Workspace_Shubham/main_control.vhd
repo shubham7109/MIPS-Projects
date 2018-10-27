@@ -54,10 +54,55 @@ begin
 			  	    o_ALU_src <= '0';
 			  	    o_reg_write <= '0';
 			end case;			  	
+		when "001000" => -- ADDI
+			o_reg_dest <= '0'; -- write to target
+			o_jump <= '0'; -- not a jump
+	  	    o_branch <= '0';  -- not a branch
+		  	o_mem_to_reg <= '0'; -- write ALU output to reg file
+		  	o_ALU_op <= "0000"; -- addition operation in ALU
+	  	    o_mem_write <= '0'; -- don't write to memory
+		    o_ALU_src <= '1'; -- select immediate as second input to ALU
+	  	    o_reg_write <= '1'; -- write enable to write register file (write rd)
 
-		-- when "001000" => -- ADDI
+		when "100011" => -- LW
+			o_reg_dest <= '0'; -- write to target
+			o_jump <= '0'; -- not a jump
+	  	    o_branch <= '0';  -- not a branch
+		  	o_mem_to_reg <= '1'; -- write memory output to register
+		  	o_ALU_op <= "0000"; -- addition operation in ALU
+	  	    o_mem_write <= '0'; -- don't write to memory
+		    o_ALU_src <= '1'; -- select immediate as second input to ALU
+	  	    o_reg_write <= '1'; -- write enable to write register file (write rd)
 
-	  	-- TODO: add new instruction cases here
+		when "101011" => -- SW
+			o_reg_dest <= '0'; -- read from target
+			o_jump <= '0'; -- not a jump
+	  	    o_branch <= '0';  -- not a branch
+		  	o_mem_to_reg <= '0'; -- no writing done, only saving. Can be 1 too
+		  	o_ALU_op <= "0000"; -- addition operation in ALU
+	  	    o_mem_write <= '1'; -- selected register is written onto addressed memory
+		    o_ALU_src <= '1'; -- select immediate as second input to ALU
+	  	    o_reg_write <= '0'; -- disable writing, registers are read, not written onto
+
+		when "000100" => -- BEQ
+			o_reg_dest <= '0'; -- not used
+			o_jump <= '0'; --not a jump
+	  	    o_branch <= '1';  -- branch to offset instruction
+		  	o_mem_to_reg <= '0'; -- not used
+		  	o_ALU_op <= "0001"; -- substraction operation in ALU (to check equality)
+	  	    o_mem_write <= '0'; -- not used
+		    o_ALU_src <= '0'; -- select rt as register to compare onto
+	  	    o_reg_write <= '0'; -- not used
+
+		when "000010" => -- J
+			o_reg_dest <= '0'; -- not used
+			o_jump <= '1'; -- jump to address instruction
+	  	    o_branch <= '0';  -- not a branch
+		  	o_mem_to_reg <= '0'; -- not used
+		  	o_ALU_op <= "0000"; -- not used
+	  	    o_mem_write <= '0'; -- not used
+		    o_ALU_src <= '0'; -- not used
+	  	    o_reg_write <= '0'; -- not used
 
 	  	when others => -- any other cases are unimplemented instructions (defaults them to NOOP)
 			o_reg_dest <= '0';
