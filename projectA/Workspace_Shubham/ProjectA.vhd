@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition"
--- CREATED		"Sun Oct 21 19:44:31 2018"
+-- CREATED		"Tue Oct 23 17:16:19 2018"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -28,8 +28,8 @@ ENTITY ProjectA IS
 		PC_reset :  IN  STD_LOGIC;
 		imem_wren :  IN  STD_LOGIC;
 		reg_file_reset :  IN  STD_LOGIC;
-		byteena1 :  IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
-		data3 :  IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
+		byteena :  IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+		data :  IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		Val_4_Adder :  IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALU_i_A :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALU_i_B :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
@@ -267,8 +267,8 @@ GENERIC MAP(depth_exp_of_2 => 10,
 PORT MAP(clock => CLK,
 		 wren => imem_wren,
 		 address => o_PC(11 DOWNTO 2),
-		 byteena => byteena1,
-		 data => data3,
+		 byteena => byteena,
+		 data => data,
 		 q => q);
 
 
@@ -315,7 +315,7 @@ GENERIC MAP(depth_exp_of_2 => 10,
 PORT MAP(clock => CLK,
 		 wren => SYNTHESIZED_WIRE_22,
 		 address => ALU_out_ALTERA_SYNTHESIZED(11 DOWNTO 2),
-		 byteena => byteena1,
+		 byteena => byteena,
 		 data => SYNTHESIZED_WIRE_25,
 		 q => SYNTHESIZED_WIRE_17);
 
