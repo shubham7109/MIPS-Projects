@@ -14,7 +14,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition"
--- CREATED		"Sat Oct 27 18:52:27 2018"
+-- CREATED		"Sat Oct 27 19:10:34 2018"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -41,6 +41,7 @@ ENTITY ProjectA IS
 		ALU_i_A :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALU_i_B :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		ALU_out :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
+		dmem_output :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		imem_output :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		JA_output :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		o_ALU_op :  OUT  STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -200,6 +201,7 @@ o_branch <= SYNTHESIZED_WIRE_7;
 o_mem_to_reg <= SYNTHESIZED_WIRE_12;
 ALU_i_A <= SYNTHESIZED_WIRE_1;
 ALU_i_B <= SYNTHESIZED_WIRE_2;
+dmem_output <= SYNTHESIZED_WIRE_13;
 o_ALU_op <= SYNTHESIZED_WIRE_0;
 
 

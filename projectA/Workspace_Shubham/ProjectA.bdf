@@ -358,6 +358,22 @@ refer to the applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 2376 368 2571 384)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "dmem_output[31..0]" (rect 90 0 189 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 1600 152 1824 264)
 	(text "ALU" (rect 5 0 26 12)(font "Arial" ))
@@ -1561,11 +1577,6 @@ refer to the applicable agreement for further details.
 	(pt 2464 216)
 )
 (connector
-	(pt 2288 200)
-	(pt 2464 200)
-	(bus)
-)
-(connector
 	(pt 1432 288)
 	(pt 1832 288)
 	(bus)
@@ -2038,6 +2049,26 @@ refer to the applicable agreement for further details.
 	(pt 1536 -360)
 	(pt 1640 -360)
 )
+(connector
+	(pt 2312 200)
+	(pt 2312 376)
+	(bus)
+)
+(connector
+	(pt 2312 376)
+	(pt 2376 376)
+	(bus)
+)
+(connector
+	(pt 2288 200)
+	(pt 2312 200)
+	(bus)
+)
+(connector
+	(pt 2312 200)
+	(pt 2464 200)
+	(bus)
+)
 (junction (pt 240 232))
 (junction (pt 528 232))
 (junction (pt 488 184))
@@ -2069,3 +2100,4 @@ refer to the applicable agreement for further details.
 (junction (pt 1544 88))
 (junction (pt 1536 104))
 (junction (pt 1552 120))
+(junction (pt 2312 200))
