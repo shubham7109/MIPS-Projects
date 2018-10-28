@@ -17,12 +17,19 @@ DATA_RADIX = HEX; 	% Enter BIN, DEC, HEX, OCT, or UNS; unless
 --    I recommend. 
 -- 3) The values need to be in 32-bit hex form (i.e. don't use F when you really mean 0000000F).
 
-
 CONTENT
 BEGIN
 
 0:
+8c080000
 20090004
-200A0005
-01498020;
+00008020
+08000009
+8d2a0000
+01508020
+ad300000
+21290004
+2108ffff
+11000001
+08000004;
 END;
