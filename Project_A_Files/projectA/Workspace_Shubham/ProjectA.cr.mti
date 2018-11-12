@@ -1,0 +1,144 @@
+U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_26_32.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extender_26_32
+-- Compiling architecture mixed of sign_extender_26_32
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ALU.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture mixed of ALU
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/register_file.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture mixed of register_file
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sll_2.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sll_2
+-- Compiling architecture mixed of sll_2
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/adder_32.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder_32
+-- Compiling architecture mixed of adder_32
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/ProjectA.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ProjectA
+-- Compiling architecture bdf_type of ProjectA
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/imem.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity imem
+-- Compiling architecture behavioral of imem
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux_32bit_2to1.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_bit32_2to1
+-- Compiling architecture structure of mux_bit32_2to1
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/dmem.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity dmem
+-- Compiling architecture behavioral of dmem
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux32bit_2to1.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux32bit_2to1
+-- Compiling architecture structure of mux32bit_2to1
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/and_2.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity and_2
+-- Compiling architecture mixed of and_2
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_1bit.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux21_1bit
+-- Compiling architecture mixed of mux21_1bit
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/main_control.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity main_control
+-- Compiling architecture mixed of main_control
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/mux21_5bit.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux21_5bit
+-- Compiling architecture mixed of mux21_5bit
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/pc_reg.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PC_reg
+-- Compiling architecture mixed of PC_reg
+
+} {} {}} U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/CPRE381/cpre-381-projecta/projectA/Workspace_Shubham/sign_extender_16_32.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extender_16_32
+-- Compiling architecture mixed of sign_extender_16_32
+
+} {} {}}
