@@ -33,8 +33,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 184 48)
 		(output)
-		(text "PC_reset" (rect 0 0 38 12)(font "Arial" ))
-		(text "PC_reset" (rect 125 43 163 55)(font "Arial" ))
+		(text "reset_if_id" (rect 0 0 42 12)(font "Arial" ))
+		(text "reset_if_id" (rect 121 43 163 55)(font "Arial" ))
 		(line (pt 184 48)(pt 168 48)(line_width 1))
 	)
 	(port
