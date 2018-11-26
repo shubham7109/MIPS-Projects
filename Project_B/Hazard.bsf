@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 256 224)
+	(text "Hazard" (rect 5 0 33 12)(font "Arial" ))
+	(text "inst" (rect 8 192 20 204)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "control_jump" (rect 0 0 50 12)(font "Arial" ))
+		(text "control_jump" (rect 21 27 71 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "id_branch" (rect 0 0 38 12)(font "Arial" ))
+		(text "id_branch" (rect 21 43 59 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "branch_taken" (rect 0 0 54 12)(font "Arial" ))
+		(text "branch_taken" (rect 21 59 75 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "id_ex_memRead" (rect 0 0 70 12)(font "Arial" ))
+		(text "id_ex_memRead" (rect 21 75 91 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "id_ex_regRt[4..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "id_ex_regRt[4..0]" (rect 21 91 92 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "if_id_regRs[4..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "if_id_regRs[4..0]" (rect 21 107 90 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "if_id_regRt[4..0]" (rect 0 0 67 12)(font "Arial" ))
+		(text "if_id_regRt[4..0]" (rect 21 123 88 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "ex_writRegSel[4..0]" (rect 0 0 79 12)(font "Arial" ))
+		(text "ex_writRegSel[4..0]" (rect 21 139 100 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "pc_stall" (rect 0 0 29 12)(font "Arial" ))
+		(text "pc_stall" (rect 190 27 219 39)(font "Arial" ))
+		(line (pt 240 32)(pt 224 32)(line_width 1))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "if_id_stall" (rect 0 0 36 12)(font "Arial" ))
+		(text "if_id_stall" (rect 183 43 219 55)(font "Arial" ))
+		(line (pt 240 48)(pt 224 48)(line_width 1))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "if_id_flush" (rect 0 0 41 12)(font "Arial" ))
+		(text "if_id_flush" (rect 178 59 219 71)(font "Arial" ))
+		(line (pt 240 64)(pt 224 64)(line_width 1))
+	)
+	(port
+		(pt 240 80)
+		(output)
+		(text "id_ex_stall" (rect 0 0 41 12)(font "Arial" ))
+		(text "id_ex_stall" (rect 178 75 219 87)(font "Arial" ))
+		(line (pt 240 80)(pt 224 80)(line_width 1))
+	)
+	(port
+		(pt 240 96)
+		(output)
+		(text "id_ex_flush" (rect 0 0 46 12)(font "Arial" ))
+		(text "id_ex_flush" (rect 173 91 219 103)(font "Arial" ))
+		(line (pt 240 96)(pt 224 96)(line_width 1))
+	)
+	(port
+		(pt 240 112)
+		(output)
+		(text "ex_mem_stall" (rect 0 0 56 12)(font "Arial" ))
+		(text "ex_mem_stall" (rect 163 107 219 119)(font "Arial" ))
+		(line (pt 240 112)(pt 224 112)(line_width 1))
+	)
+	(port
+		(pt 240 128)
+		(output)
+		(text "ex_mem_flush" (rect 0 0 61 12)(font "Arial" ))
+		(text "ex_mem_flush" (rect 158 123 219 135)(font "Arial" ))
+		(line (pt 240 128)(pt 224 128)(line_width 1))
+	)
+	(port
+		(pt 240 144)
+		(output)
+		(text "mem_wb_stall" (rect 0 0 57 12)(font "Arial" ))
+		(text "mem_wb_stall" (rect 162 139 219 151)(font "Arial" ))
+		(line (pt 240 144)(pt 224 144)(line_width 1))
+	)
+	(port
+		(pt 240 160)
+		(output)
+		(text "mem_wb_flush" (rect 0 0 62 12)(font "Arial" ))
+		(text "mem_wb_flush" (rect 157 155 219 167)(font "Arial" ))
+		(line (pt 240 160)(pt 224 160)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 192)(line_width 1))
+	)
+)

@@ -7,111 +7,120 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dU:/CPRE381/cpre-381-projecta/Project_B
+dU:/CPRE381/cpre-381-projecta/Project_B
+T_opt
+!s110 1543261548
+Vz:4^K3Gc^Y:AALWU^:KCb1
+04 13 8 work pipeline_mips bdf_type 1
+=1-509a4c476435-5bfc4d6b-3d4-2044
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.5b;63
 Eadder_32
-Z1 w1542759489
+Z1 w1541970103
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-R0
-Z5 8U:/CPRE381/cpre-381-projecta/Project_B/adder_32.vhd
-Z6 FU:/CPRE381/cpre-381-projecta/Project_B/adder_32.vhd
+Z5 dU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B
+Z6 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/adder_32.vhd
+Z7 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/adder_32.vhd
 l0
 L5
 VeK[12<UiLG]a1CP3HC_eY3
 !s100 egmg<On7Df2]T:f6g5hnM0
-Z7 OL;C;10.5b;63
+Z8 OL;C;10.5b;63
 32
-Z8 !s110 1542759753
+Z9 !s110 1543259233
 !i10b 1
-Z9 !s108 1542759753.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/adder_32.vhd|
-Z11 !s107 U:/CPRE381/cpre-381-projecta/Project_B/adder_32.vhd|
+Z10 !s108 1543259232.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/adder_32.vhd|
+Z12 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/adder_32.vhd|
 !i113 0
-Z12 o-work work -2002 -explicit
-Z13 tExplicit 1 CvgOpt 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
 Amixed
 R2
 R3
 R4
 DEx4 work 8 adder_32 0 22 eK[12<UiLG]a1CP3HC_eY3
+32
+R9
 l12
 L10
 VnT?UOP6K@c^]PY1SnICWA0
 !s100 S]T[0gc@lD5;NQmc<dko_0
-R7
-32
 R8
 !i10b 1
-R9
 R10
 R11
-!i113 0
 R12
+!i113 0
 R13
+R14
 Ealu
-Z14 w1542759488
+R1
 R2
 R3
 R4
-R0
-Z15 8U:/CPRE381/cpre-381-projecta/Project_B/ALU.vhd
-Z16 FU:/CPRE381/cpre-381-projecta/Project_B/ALU.vhd
+R5
+Z15 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ALU.vhd
+Z16 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ALU.vhd
 l0
 L5
 VNKag>E1^__L1cUUkNTIOW2
 !s100 Z8@PE[3L6GO25hoSiQKiA0
-R7
+R8
 32
-Z17 !s110 1542759754
+R9
 !i10b 1
-Z18 !s108 1542759754.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/ALU.vhd|
-Z20 !s107 U:/CPRE381/cpre-381-projecta/Project_B/ALU.vhd|
+Z17 !s108 1543259233.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ALU.vhd|
+Z19 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ALU.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 3 alu 0 22 NKag>E1^__L1cUUkNTIOW2
+32
+R9
 l18
 L14
 VmmFXBXYfOmV2R1kb9gk;U0
 !s100 Z>]N[e?I0aF^P^J25J:fe3
-R7
-32
-R17
+R8
 !i10b 1
+R17
 R18
 R19
-R20
 !i113 0
-R12
 R13
+R14
 Eand_2
 R1
 R2
 R3
 R4
-R0
-Z21 8U:/CPRE381/cpre-381-projecta/Project_B/and_2.vhd
-Z22 FU:/CPRE381/cpre-381-projecta/Project_B/and_2.vhd
+R5
+Z20 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/and_2.vhd
+Z21 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/and_2.vhd
 l0
 L5
 VBUBWRAc4f>HDYK<64iaVQ1
 !s100 CzU<26n4<nAXZ?hl60M8<3
-R7
+R8
 32
-R17
+R9
 !i10b 1
-R18
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/and_2.vhd|
-Z24 !s107 U:/CPRE381/cpre-381-projecta/Project_B/and_2.vhd|
+R17
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/and_2.vhd|
+Z23 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/and_2.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
@@ -121,79 +130,79 @@ l12
 L10
 VG50O?a?iRe]i[80:BLWIT2
 !s100 0^FjP8o4ZMzD?4]ZRjG8o0
-R7
+R8
 32
-R17
+R9
 !i10b 1
-R18
+R17
+R22
 R23
-R24
 !i113 0
-R12
 R13
+R14
 Ebit32_mux_2to1
-R1
+Z24 w1541970106
 R2
 R3
 R4
-R0
-Z25 8U:/CPRE381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd
-Z26 FU:/CPRE381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd
+R5
+Z25 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd
+Z26 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd
 l0
 L5
 Vo^LSd_M>07V:b?Qa4iZH80
 !s100 iI>T^5EnH@Vn82Y:4S=_j2
-R7
+R8
 32
-R17
+Z27 !s110 1543259234
 !i10b 1
-R18
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd|
-Z28 !s107 U:/CPRE381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd|
+Z28 !s108 1543259234.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd|
+Z30 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/bit32_mux_2to1.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 14 bit32_mux_2to1 0 22 o^LSd_M>07V:b?Qa4iZH80
+32
+R27
 l13
 L11
 VF>RYVT4A<gH[6JQ@^c?XQ0
 !s100 2>=`O8oG?z5a3UEkZkVIL2
-R7
-32
-R17
+R8
 !i10b 1
-R18
-R27
 R28
+R29
+R30
 !i113 0
-R12
 R13
+R14
 Ebranch_comparator
 R1
 R2
 R3
 R4
-R0
-Z29 8U:/CPRE381/cpre-381-projecta/Project_B/branch_comparator.vhd
-Z30 FU:/CPRE381/cpre-381-projecta/Project_B/branch_comparator.vhd
+R5
+Z31 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/branch_comparator.vhd
+Z32 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/branch_comparator.vhd
 l0
 L5
 Vflg@9<0:hGcLK0_:zjb]Q3
 !s100 DdCg7RCV7j57?oC5ZI6zR1
-R7
+R8
 32
-Z31 !s110 1542759755
+R27
 !i10b 1
-R18
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/branch_comparator.vhd|
-Z33 !s107 U:/CPRE381/cpre-381-projecta/Project_B/branch_comparator.vhd|
+R28
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/branch_comparator.vhd|
+Z34 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/branch_comparator.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
@@ -203,411 +212,411 @@ l12
 L10
 VN]]0jloj_=ZR=UoC1cMHP3
 !s100 eM;SF9WTgcP6oBziK^m;A2
-R7
+R8
 32
-R31
+R27
 !i10b 1
-R18
-R32
+R28
 R33
+R34
 !i113 0
-R12
 R13
+R14
 Edmem
 R1
-Z34 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z35 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z36 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R3
 R4
-R0
-Z36 8U:/CPRE381/cpre-381-projecta/Project_B/dmem.vhd
-Z37 FU:/CPRE381/cpre-381-projecta/Project_B/dmem.vhd
+R5
+Z37 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/dmem.vhd
+Z38 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/dmem.vhd
 l0
 L24
 ViQOOl:HY^3d0`6XdCmn?^1
 !s100 nXG04B1NNg?Qj;_6dQ?`_1
-R7
+R8
 32
-R31
+Z39 !s110 1543259235
 !i10b 1
-Z38 !s108 1542759755.000000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/dmem.vhd|
-Z40 !s107 U:/CPRE381/cpre-381-projecta/Project_B/dmem.vhd|
+Z40 !s108 1543259235.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/dmem.vhd|
+Z42 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/dmem.vhd|
 !i113 0
-R12
 R13
+R14
 Abehavioral
-R34
 R35
+R36
 R3
 R4
 DEx4 work 4 dmem 0 22 iQOOl:HY^3d0`6XdCmn?^1
+32
+R39
 l482
 L35
 VN4f;QZ?]B^0N_0z2[ZM1c3
 !s100 jbhn^6;Eh_C3g@l>dOo4U0
-R7
-32
-R31
+R8
 !i10b 1
-R38
-R39
 R40
+R41
+R42
 !i113 0
-R12
 R13
+R14
 Eex_mem
 R1
 R2
 R3
 R4
-R0
-Z41 8U:/CPRE381/cpre-381-projecta/Project_B/ex_mem.vhd
-Z42 FU:/CPRE381/cpre-381-projecta/Project_B/ex_mem.vhd
+R5
+Z43 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ex_mem.vhd
+Z44 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ex_mem.vhd
 l0
 L5
 ViVF4TXNL5QWOoilk;Cig41
 !s100 Tnd3O?>zB0laC7?G73QhH3
-R7
+R8
 32
-R31
+R39
 !i10b 1
-R38
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/ex_mem.vhd|
-Z44 !s107 U:/CPRE381/cpre-381-projecta/Project_B/ex_mem.vhd|
+R40
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ex_mem.vhd|
+Z46 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/ex_mem.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 6 ex_mem 0 22 iVF4TXNL5QWOoilk;Cig41
+32
+R39
 l40
 L38
 VU[P14=1>I4Pj@B4Z9Zh@o0
 !s100 Bo3omQQoEX3KI7O`<0JFU1
-R7
-32
-R31
+R8
 !i10b 1
-R38
-R43
-R44
+R40
+R45
+R46
 !i113 0
-R12
 R13
+R14
 Efixed_value_input
-R1
+Z47 w1541990986
 R2
 R3
 R4
-R0
-Z45 8U:/CPRE381/cpre-381-projecta/Project_B/fixed_value_input.vhd
-Z46 FU:/CPRE381/cpre-381-projecta/Project_B/fixed_value_input.vhd
+R5
+Z48 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/fixed_value_input.vhd
+Z49 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/fixed_value_input.vhd
 l0
 L5
 V8IDPMfX_^9CL1o=IF>A><3
 !s100 MRNhPHfR]g>^bK1V:7YXL1
-R7
+R8
 32
-Z47 !s110 1542759756
+Z50 !s110 1543259237
 !i10b 1
-Z48 !s108 1542759756.000000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/fixed_value_input.vhd|
-Z50 !s107 U:/CPRE381/cpre-381-projecta/Project_B/fixed_value_input.vhd|
+R40
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/fixed_value_input.vhd|
+Z52 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/fixed_value_input.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 17 fixed_value_input 0 22 8IDPMfX_^9CL1o=IF>A><3
+32
+R50
 l16
 L14
 VmTPfjCUJP9BB_EjUR<2DN3
 !s100 HjP0kW96V_DR7TiS6_4@41
-R7
-32
-R47
+R8
 !i10b 1
-R48
-R49
-R50
+R40
+R51
+R52
 !i113 0
-R12
 R13
+R14
 Eid_ex
 R1
 R2
 R3
 R4
-R0
-Z51 8U:/CPRE381/cpre-381-projecta/Project_B/id_ex.vhd
-Z52 FU:/CPRE381/cpre-381-projecta/Project_B/id_ex.vhd
+R5
+Z53 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/id_ex.vhd
+Z54 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/id_ex.vhd
 l0
 L5
 Vni>i117HoQ]fMGP]TP7W>1
 !s100 TXc;CFDzE`YNjY96L8Y:G2
-R7
+R8
 32
-R47
+R50
 !i10b 1
-R48
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/id_ex.vhd|
-Z54 !s107 U:/CPRE381/cpre-381-projecta/Project_B/id_ex.vhd|
+Z55 !s108 1543259237.000000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/id_ex.vhd|
+Z57 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/id_ex.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 5 id_ex 0 22 ni>i117HoQ]fMGP]TP7W>1
+32
+R50
 l50
 L48
 V[FiLl=ZHKUZSW]zLh4Qgf1
 !s100 `H<9W@ci8E7OX3bE<OiIR0
-R7
-32
-R47
+R8
 !i10b 1
-R48
-R53
-R54
+R55
+R56
+R57
 !i113 0
-R12
 R13
+R14
 Eif_id
 R1
 R2
 R3
 R4
-R0
-Z55 8U:/CPRE381/cpre-381-projecta/Project_B/if_id.vhd
-Z56 FU:/CPRE381/cpre-381-projecta/Project_B/if_id.vhd
+R5
+Z58 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/if_id.vhd
+Z59 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/if_id.vhd
 l0
 L5
 V4cAzIQ10aO[5F@D;gUZJh3
 !s100 Eo9j@Wm2C<bXW>a3F`1SI1
-R7
+R8
 32
-R47
+Z60 !s110 1543259238
 !i10b 1
-R48
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/if_id.vhd|
-Z58 !s107 U:/CPRE381/cpre-381-projecta/Project_B/if_id.vhd|
+Z61 !s108 1543259238.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/if_id.vhd|
+Z63 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/if_id.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 5 if_id 0 22 4cAzIQ10aO[5F@D;gUZJh3
+32
+R60
 l16
 L14
 V56zkY1970Glk>7>_fio2=2
 !s100 MBH3bkLW>FTQJV7G3KiSc0
-R7
-32
-R47
+R8
 !i10b 1
-R48
-R57
-R58
+R61
+R62
+R63
 !i113 0
-R12
 R13
+R14
 Eimem
 R1
-R34
 R35
+R36
 R3
 R4
-R0
-Z59 8U:/CPRE381/cpre-381-projecta/Project_B/imem.vhd
-Z60 FU:/CPRE381/cpre-381-projecta/Project_B/imem.vhd
+R5
+Z64 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/imem.vhd
+Z65 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/imem.vhd
 l0
 L24
 VjXhbBJffKcnG98J4k;oNl2
 !s100 ;:C@ekial1:hh0oimdP3>3
-R7
+R8
 32
-Z61 !s110 1542759757
+R60
 !i10b 1
-Z62 !s108 1542759757.000000
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/imem.vhd|
-Z64 !s107 U:/CPRE381/cpre-381-projecta/Project_B/imem.vhd|
+R61
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/imem.vhd|
+Z67 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/imem.vhd|
 !i113 0
-R12
 R13
+R14
 Abehavioral
-R34
 R35
+R36
 R3
 R4
 DEx4 work 4 imem 0 22 jXhbBJffKcnG98J4k;oNl2
+32
+R60
 l482
 L35
 Vm?YB5bKRQ12OK21KHa^^S2
 !s100 6UBLDD7nKFLM30^2gU3ok2
-R7
-32
-R61
+R8
 !i10b 1
-R62
-R63
-R64
+R61
+R66
+R67
 !i113 0
-R12
 R13
+R14
 Ejumphandler
-R1
+Z68 w1541970107
 R2
 R3
 R4
-R0
-Z65 8U:/CPRE381/cpre-381-projecta/Project_B/jumpHandler.vhd
-Z66 FU:/CPRE381/cpre-381-projecta/Project_B/jumpHandler.vhd
+R5
+Z69 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/jumpHandler.vhd
+Z70 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/jumpHandler.vhd
 l0
 L5
 VZnXdKQO5lkJah<_UkFNaO2
 !s100 fVfSYQIJZ3g2RbLBLeGz=3
-R7
+R8
 32
-R61
+Z71 !s110 1543259239
 !i10b 1
-R62
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/jumpHandler.vhd|
-Z68 !s107 U:/CPRE381/cpre-381-projecta/Project_B/jumpHandler.vhd|
+R61
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/jumpHandler.vhd|
+Z73 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/jumpHandler.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 11 jumphandler 0 22 ZnXdKQO5lkJah<_UkFNaO2
+32
+R71
 l14
 L12
 V?J_^;nDf9`JN3KAEzYZLl3
 !s100 O_K:WQPDWSNHC0nnSJ2IO0
-R7
-32
-R61
+R8
 !i10b 1
-R62
-R67
-R68
+R61
+R72
+R73
 !i113 0
-R12
 R13
+R14
 Emain_control
-R1
+R68
 R2
 R3
 R4
-R0
-Z69 8U:/CPRE381/cpre-381-projecta/Project_B/main_control.vhd
-Z70 FU:/CPRE381/cpre-381-projecta/Project_B/main_control.vhd
+R5
+Z74 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/main_control.vhd
+Z75 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/main_control.vhd
 l0
 L5
 Vz8;kVNm:XoMbnJdfI8c9]0
 !s100 i^g9aQzd4?KVgPb7ZUn>23
-R7
+R8
 32
-R61
+R71
 !i10b 1
-R62
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/main_control.vhd|
-Z72 !s107 U:/CPRE381/cpre-381-projecta/Project_B/main_control.vhd|
+Z76 !s108 1543259239.000000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/main_control.vhd|
+Z78 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/main_control.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 12 main_control 0 22 z8;kVNm:XoMbnJdfI8c9]0
+32
+R71
 l24
 L18
 V2VlRF3bMOFFAU;Lh<2i@z3
 !s100 W[9@7P9IR351>jc@A]fAc3
-R7
-32
-Z73 !s110 1542759758
-!i10b 1
-R62
-R71
-R72
-!i113 0
-R12
-R13
-Emem_wb
-R1
-R2
-R3
-R4
-R0
-Z74 8U:/CPRE381/cpre-381-projecta/Project_B/mem_wb.vhd
-Z75 FU:/CPRE381/cpre-381-projecta/Project_B/mem_wb.vhd
-l0
-L5
-VnCU:lDdH]^S@0lmVPTAfI1
-!s100 41QfeRWiW:7f9G@=F3?>10
-R7
-32
-R73
-!i10b 1
-Z76 !s108 1542759758.000000
-Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/mem_wb.vhd|
-Z78 !s107 U:/CPRE381/cpre-381-projecta/Project_B/mem_wb.vhd|
-!i113 0
-R12
-R13
-Amixed
-R2
-R3
-R4
-DEx4 work 6 mem_wb 0 22 nCU:lDdH]^S@0lmVPTAfI1
-l41
-L39
-V[ggMPUWfhmMXH0GdPMNi;2
-!s100 AUjIHb8S;^ZRg_K4mMQBg3
-R7
-32
-R73
+R8
 !i10b 1
 R76
 R77
 R78
 !i113 0
-R12
 R13
-Emux21_1bit
-R1
+R14
+Emem_wb
+Z79 w1541970104
 R2
 R3
 R4
-R0
-Z79 8U:/CPRE381/cpre-381-projecta/Project_B/mux21_1bit.vhd
-Z80 FU:/CPRE381/cpre-381-projecta/Project_B/mux21_1bit.vhd
+R5
+Z80 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mem_wb.vhd
+Z81 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mem_wb.vhd
+l0
+L5
+VnCU:lDdH]^S@0lmVPTAfI1
+!s100 41QfeRWiW:7f9G@=F3?>10
+R8
+32
+R71
+!i10b 1
+R76
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mem_wb.vhd|
+Z83 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mem_wb.vhd|
+!i113 0
+R13
+R14
+Amixed
+R2
+R3
+R4
+DEx4 work 6 mem_wb 0 22 nCU:lDdH]^S@0lmVPTAfI1
+32
+R71
+l41
+L39
+V[ggMPUWfhmMXH0GdPMNi;2
+!s100 AUjIHb8S;^ZRg_K4mMQBg3
+R8
+!i10b 1
+R76
+R82
+R83
+!i113 0
+R13
+R14
+Emux21_1bit
+R79
+R2
+R3
+R4
+R5
+Z84 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_1bit.vhd
+Z85 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_1bit.vhd
 l0
 L5
 V5ad@XP^_T>A>>_lTei:zI3
 !s100 SIHe3]Q60iOJ5h=e5=^Dc0
-R7
+R8
 32
-R73
+Z86 !s110 1543259240
 !i10b 1
-R76
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/mux21_1bit.vhd|
-Z82 !s107 U:/CPRE381/cpre-381-projecta/Project_B/mux21_1bit.vhd|
+Z87 !s108 1543259240.000000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_1bit.vhd|
+Z89 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_1bit.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
@@ -617,38 +626,38 @@ l13
 L11
 V@W`aza?EkYE4NmOF0n^6G3
 !s100 Q1ING><NR6emP3?XbAW[I1
-R7
+R8
 32
-R73
+Z90 !s110 1543259241
 !i10b 1
-R76
-R81
-R82
+R87
+R88
+R89
 !i113 0
-R12
 R13
+R14
 Emux21_32bit
-R1
+R79
 R2
 R3
 R4
-R0
-Z83 8U:/CPRE381/cpre-381-projecta/Project_B/mux21_32bit.vhd
-Z84 FU:/CPRE381/cpre-381-projecta/Project_B/mux21_32bit.vhd
+R5
+Z91 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_32bit.vhd
+Z92 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_32bit.vhd
 l0
 L5
 Vd9dSQQWe_GcfQ1:C8b<WQ3
 !s100 gMWSROBmKcgSLaeGGchYQ1
-R7
+R8
 32
-Z85 !s110 1542759759
+R90
 !i10b 1
-Z86 !s108 1542759759.000000
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/mux21_32bit.vhd|
-Z88 !s107 U:/CPRE381/cpre-381-projecta/Project_B/mux21_32bit.vhd|
+Z93 !s108 1543259241.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_32bit.vhd|
+Z95 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_32bit.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
@@ -658,78 +667,78 @@ l13
 L11
 V<H<k3E0m2YM<R:4j`K>MO0
 !s100 35lKhO<@n09CbU14>OUjb1
-R7
+R8
 32
-R85
+R90
 !i10b 1
-R86
-R87
-R88
+R93
+R94
+R95
 !i113 0
-R12
 R13
+R14
 Emux21_5bit
-R1
+R79
 R2
 R3
 R4
-R0
-Z89 8U:/CPRE381/cpre-381-projecta/Project_B/mux21_5bit.vhd
-Z90 FU:/CPRE381/cpre-381-projecta/Project_B/mux21_5bit.vhd
+R5
+Z96 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_5bit.vhd
+Z97 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_5bit.vhd
 l0
 L5
 V?alb?N<RzYheEJOH4OhoE1
 !s100 3Ke0CNONJ:gj14j=ck<Z?3
-R7
+R8
 32
-R85
+R90
 !i10b 1
-R86
-Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/mux21_5bit.vhd|
-Z92 !s107 U:/CPRE381/cpre-381-projecta/Project_B/mux21_5bit.vhd|
+R93
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_5bit.vhd|
+Z99 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux21_5bit.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 10 mux21_5bit 0 22 ?alb?N<RzYheEJOH4OhoE1
+32
+R90
 l13
 L11
 VKih<fU?je7_ga?moDPmQn2
 !s100 ZCiZ4l:7ikI<3HzVb[cmM0
-R7
-32
-R85
+R8
 !i10b 1
-R86
-R91
-R92
+R93
+R98
+R99
 !i113 0
-R12
 R13
+R14
 Emux32bit_2to1
-R1
+R68
 R3
 R4
-R0
-Z93 8U:/CPRE381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd
-Z94 FU:/CPRE381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd
+R5
+Z100 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd
+Z101 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd
 l0
 L6
 V[6OG<4zZFm@laSHKjm2BF1
 !s100 _k690eA78z:?k80<]>nRm0
-R7
+R8
 32
-Z95 !s110 1542759760
+Z102 !s110 1543259242
 !i10b 1
-R86
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd|
-Z97 !s107 U:/CPRE381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd|
+R93
+Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd|
+Z104 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux32bit_2to1.vhd|
 !i113 0
-R12
 R13
+R14
 Astructure
 R3
 R4
@@ -738,37 +747,37 @@ l19
 L15
 VF=XU]f3K;N?I^a8SoX[YM3
 !s100 QA3ojFbH]k>Dl43AM6e980
-R7
+R8
 32
-R95
+R102
 !i10b 1
-R86
-R96
-R97
+R93
+R103
+R104
 !i113 0
-R12
 R13
+R14
 Emux_bit32_2to1
-R1
+R68
 R3
 R4
-R0
-Z98 8U:/CPRE381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd
-Z99 FU:/CPRE381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd
+R5
+Z105 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd
+Z106 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd
 l0
 L6
 VI;J4Z9@oRH4S:M_64Yh]J1
 !s100 Y8fdn0z476ZmH>SV<kI[W1
-R7
+R8
 32
-R73
+R86
 !i10b 1
-R76
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd|
-Z101 !s107 U:/CPRE381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd|
+R87
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd|
+Z108 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/mux_32bit_2to1.vhd|
 !i113 0
-R12
 R13
+R14
 Astructure
 R3
 R4
@@ -777,79 +786,140 @@ l19
 L15
 V::gZ@?k@J1AlcXHQzbgDN3
 !s100 ^68fYb2?RG?226]nIVZ`12
-R7
+R8
 32
-R73
+R86
 !i10b 1
-R76
-R100
-R101
+R87
+R107
+R108
 !i113 0
-R12
 R13
+R14
 Epc_reg
-R1
+Z109 w1543256847
 R2
 R3
 R4
-R0
-Z102 8U:/CPRE381/cpre-381-projecta/Project_B/pc_reg.vhd
-Z103 FU:/CPRE381/cpre-381-projecta/Project_B/pc_reg.vhd
+R5
+Z110 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pc_reg.vhd
+Z111 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pc_reg.vhd
 l0
 L5
 Vg6GJ<RC:E2dNI7Hl>:COR1
 !s100 <8a@gzNJ6O7T2D@=m0ccP0
-R7
+R8
 32
-R95
+R102
 !i10b 1
-Z104 !s108 1542759760.000000
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/pc_reg.vhd|
-Z106 !s107 U:/CPRE381/cpre-381-projecta/Project_B/pc_reg.vhd|
+Z112 !s108 1543259242.000000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pc_reg.vhd|
+Z114 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pc_reg.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 6 pc_reg 0 22 g6GJ<RC:E2dNI7Hl>:COR1
+32
+R102
 l15
 L13
 Vj8NzVd9=`BT@IgF:E;WWT1
 !s100 3PU]IIPEL^18Zn[UUW]f72
-R7
-32
-R95
+R8
 !i10b 1
-R104
-R105
-R106
+R112
+R113
+R114
 !i113 0
-R12
 R13
+R14
+vPipeline_MIPS
+Z115 !s110 1543259243
+!i10b 1
+!s100 zSVN^l>?kieJZOi>kK^VX2
+I:Ik6PQzJgdNU81BM?`8953
+VDg1SIo80bB@j0V0VzS_@n1
+R5
+w1542149569
+8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.v
+FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.v
+L0 19
+OL;L;10.5b;63
+r1
+!s85 0
+31
+R112
+!s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@pipeline_@m@i@p@s
+Epipeline_mips
+Z116 w1543261520
+R3
+R4
+R5
+Z117 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.vhd
+Z118 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.vhd
+l0
+L24
+V_^6H^^ol_GIO@^:nfcm_23
+!s100 68[X^1NC>5J32i43S5Mj70
+R8
+32
+Z119 !s110 1543261533
+!i10b 1
+Z120 !s108 1543261532.000000
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.vhd|
+Z122 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/Pipeline_MIPS.vhd|
+!i113 0
+R13
+R14
+Abdf_type
+R3
+R4
+DEx4 work 13 pipeline_mips 0 22 _^6H^^ol_GIO@^:nfcm_23
+l332
+L36
+V2_66DDO24?Ed=20SiUZFT1
+!s100 XTBG>QjRi3J<bRKKDE7Fg1
+R8
+32
+R119
+!i10b 1
+R120
+R121
+R122
+!i113 0
+R13
+R14
 Epipeline_register_template
-R1
+R79
 R2
 R3
 R4
-R0
-Z107 8U:/CPRE381/cpre-381-projecta/Project_B/pipeline_register_template.vhd
-Z108 FU:/CPRE381/cpre-381-projecta/Project_B/pipeline_register_template.vhd
+R5
+Z123 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pipeline_register_template.vhd
+Z124 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pipeline_register_template.vhd
 l0
 L5
 VGjDVW?XWcFDM`<>zjZC522
 !s100 L;z30aJo05L`Z06Lz23hA3
-R7
+R8
 32
-R95
+R115
 !i10b 1
-R104
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/pipeline_register_template.vhd|
-Z110 !s107 U:/CPRE381/cpre-381-projecta/Project_B/pipeline_register_template.vhd|
+Z125 !s108 1543259243.000000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pipeline_register_template.vhd|
+Z127 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/pipeline_register_template.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
@@ -859,177 +929,177 @@ l49
 L47
 VN5T2Nj<HTE0f<TWW4kXA<1
 !s100 I4Y``6OaLPl>g>WRG1HZE1
-R7
+R8
 32
-R95
+R115
 !i10b 1
-R104
-R109
-R110
+R125
+R126
+R127
 !i113 0
-R12
 R13
+R14
 Eregister_file
-R1
+Z128 w1542149860
 R2
 R3
 R4
-R0
-Z111 8U:/CPRE381/cpre-381-projecta/Project_B/register_file.vhd
-Z112 FU:/CPRE381/cpre-381-projecta/Project_B/register_file.vhd
+R5
+Z129 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/register_file.vhd
+Z130 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/register_file.vhd
 l0
 L5
 VOV4<M?_bVai1H3P^2ek7B3
 !s100 0;6l8OR7N:fQ8?E^89Gj30
-R7
+R8
 32
-Z113 !s110 1542759761
+R115
 !i10b 1
-R104
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/register_file.vhd|
-Z115 !s107 U:/CPRE381/cpre-381-projecta/Project_B/register_file.vhd|
+R125
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/register_file.vhd|
+Z132 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/register_file.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 13 register_file 0 22 OV4<M?_bVai1H3P^2ek7B3
+32
+R115
 l23
 L17
-V6hAG_jKKW:RFid1Rim^[?2
-!s100 =e71@BHU0zWCFFFDoj23`3
-R7
-32
-R113
+V<U`<9iMaJaEg1O1J@CP<c3
+!s100 a`d=PG[>:QXdoV:AG2L1e0
+R8
 !i10b 1
-R104
-R114
-R115
+R125
+R131
+R132
 !i113 0
-R12
 R13
+R14
 Esign_extender_16_32
-R1
+R79
 R2
 R3
 R4
-R0
-Z116 8U:/CPRE381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd
-Z117 FU:/CPRE381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd
+R5
+Z133 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd
+Z134 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd
 l0
 L5
 V[i9oH0;lk]ZoBPS:<349D2
 !s100 fG?LOX^^lH4;UE9fMB]Z^2
-R7
+R8
 32
-R113
+Z135 !s110 1543259244
 !i10b 1
-Z118 !s108 1542759761.000000
-Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd|
-Z120 !s107 U:/CPRE381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd|
+Z136 !s108 1543259244.000000
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd|
+Z138 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_16_32.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 19 sign_extender_16_32 0 22 [i9oH0;lk]ZoBPS:<349D2
+32
+R135
 l12
 L10
 VFZPPX5MQTlEI]Pa9c=nc;0
 !s100 @@jWTG6SS0InUNlbG;c2R3
-R7
-32
-R113
+R8
 !i10b 1
-R118
-R119
-R120
+R136
+R137
+R138
 !i113 0
-R12
 R13
+R14
 Esign_extender_26_32
-R1
+R68
 R2
 R3
 R4
-R0
-Z121 8U:/CPRE381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd
-Z122 FU:/CPRE381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd
+R5
+Z139 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd
+Z140 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd
 l0
 L5
 VM[<nLcb:5d`Uo>fALH63>0
 !s100 Z<b6VF[kVke:ZI;SlWfnJ1
-R7
+R8
 32
-R113
+R135
 !i10b 1
-R118
-Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd|
-Z124 !s107 U:/CPRE381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd|
+R136
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd|
+Z142 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sign_extender_26_32.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 19 sign_extender_26_32 0 22 M[<nLcb:5d`Uo>fALH63>0
+32
+R135
 l12
 L10
 Vcj0F]5lg073ahgE]dKUaN0
 !s100 g@[NUmSJk=6L>`ZO<Qg?k3
-R7
-32
-R113
+R8
 !i10b 1
-R118
-R123
-R124
+R136
+R141
+R142
 !i113 0
-R12
 R13
+R14
 Esll_2
-R1
+R79
 R2
 R3
 R4
-R0
-Z125 8U:/CPRE381/cpre-381-projecta/Project_B/sll_2.vhd
-Z126 FU:/CPRE381/cpre-381-projecta/Project_B/sll_2.vhd
+R5
+Z143 8U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sll_2.vhd
+Z144 FU:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sll_2.vhd
 l0
 L6
 VcE08ijZ=8FTSPE=VX_@Zc3
 !s100 F_z?LI[IV_bC@Y_G05@mn2
-R7
+R8
 32
-Z127 !s110 1542759762
+Z145 !s110 1543259232
 !i10b 1
-Z128 !s108 1542759762.000000
-Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/CPRE381/cpre-381-projecta/Project_B/sll_2.vhd|
-Z130 !s107 U:/CPRE381/cpre-381-projecta/Project_B/sll_2.vhd|
+R10
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sll_2.vhd|
+Z147 !s107 U:/Computer Engineering/CprE 381/cpre-381-projecta/Project_B/sll_2.vhd|
 !i113 0
-R12
 R13
+R14
 Amixed
 R2
 R3
 R4
 DEx4 work 5 sll_2 0 22 cE08ijZ=8FTSPE=VX_@Zc3
+32
+R145
 l13
 L11
 Vn>RQ=_G7o?E0[Mj:okHHC2
 !s100 8;o^EcbggZLl8njhZbT;02
-R7
-32
-R127
+R8
 !i10b 1
-R128
-R129
-R130
+R10
+R146
+R147
 !i113 0
-R12
 R13
+R14

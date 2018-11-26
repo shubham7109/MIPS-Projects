@@ -40,9 +40,16 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
+		(text "stall" (rect 0 0 14 12)(font "Arial" ))
+		(text "stall" (rect 21 59 35 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
 		(text "i_next_PC[31..0]" (rect 0 0 66 12)(font "Arial" ))
-		(text "i_next_PC[31..0]" (rect 21 59 87 71)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
+		(text "i_next_PC[31..0]" (rect 21 75 87 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
 		(pt 216 32)
