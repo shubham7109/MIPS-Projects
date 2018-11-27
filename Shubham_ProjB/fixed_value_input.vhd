@@ -20,6 +20,6 @@ reset_if_id <= '0';
 imem_wren <= '0';
 data <= (others => '0');
 reg_file_reset <= '0';
-byteena <= (others => '0');
+byteena <= x"F";
 
 end mixed;
