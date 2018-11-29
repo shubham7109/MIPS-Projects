@@ -22,33 +22,33 @@ VOoV@@28I?UWo8G78Bh8?O1
 !s100 egmg<On7Df2]T:f6g5hnM0
 Z7 OL;C;10.5b;63
 32
-Z8 !s110 1543342219
+!s110 1543470111
 !i10b 1
-Z9 !s108 1543342218.000000
-Z10 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|
-Z11 !s107 U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|
+Z8 !s108 1543470110.000000
+Z9 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding_unit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|
+Z10 !s107 U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding_unit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|
 !i113 0
-Z12 o-work work
-Z13 tExplicit 1 CvgOpt 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
 Amixed
 R1
 R2
 R3
 DEx4 work 8 adder_32 0 22 OoV@@28I?UWo8G78Bh8?O1
 32
-R8
+Z13 !s110 1543470112
 l12
 L10
 VL=Z?ME<?@_NzjScO5cJa@3
 !s100 S]T[0gc@lD5;NQmc<dko_0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Ealu
 Z14 w1542759488
 R1
@@ -63,33 +63,33 @@ Vf>7RfL[XQ:4nQeF=m[WXT2
 !s100 Z8@PE[3L6GO25hoSiQKiA0
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 3 alu 0 22 f>7RfL[XQ:4nQeF=m[WXT2
 32
-R8
+R13
 l18
 L14
 V:CBem1Z_gLS6@@WNn_J>E1
 !s100 Z>]N[e?I0aF^P^J25J:fe3
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eand_2
 R0
 R1
@@ -104,14 +104,14 @@ VE7^Nc5bBgFC3Z8bU1NkU?1
 !s100 CzU<26n4<nAXZ?hl60M8<3
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
@@ -123,14 +123,14 @@ VdHEMM3@[cgeoaf`8RKb?J2
 !s100 0^FjP8o4ZMzD?4]ZRjG8o0
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Ebit32_mux_2to1
 R0
 R1
@@ -145,14 +145,14 @@ V;_dLh?oAjc_H9hc;c_Cg62
 !s100 iI>T^5EnH@Vn82Y:4S=_j2
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
@@ -164,14 +164,14 @@ V_D02lMFj3TYJ;X=>eE@8^3
 !s100 2>=`O8oG?z5a3UEkZkVIL2
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Ebranch_comparator
 R0
 R1
@@ -186,33 +186,33 @@ V46MNhHZn2fc[OHJNI>^P11
 !s100 DdCg7RCV7j57?oC5ZI6zR1
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 17 branch_comparator 0 22 46MNhHZn2fc[OHJNI>^P11
 32
-R8
+R13
 l12
 L10
 VH;Bc;MoiaRZU>XO2;g;8=0
 !s100 eM;SF9WTgcP6oBziK^m;A2
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Edmem
 R0
 Z23 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
@@ -228,14 +228,14 @@ VSdR;fG4IObD@Fl:UmGjc33
 !s100 nXG04B1NNg?Qj;_6dQ?`_1
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Abehavioral
 R23
 R24
@@ -243,19 +243,19 @@ R2
 R3
 DEx4 work 4 dmem 0 22 SdR;fG4IObD@Fl:UmGjc33
 32
-R8
+R13
 l482
 L35
 V_4na40bLM0fnijo=PiVE42
 !s100 jbhn^6;Eh_C3g@l>dOo4U0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eex_mem
 R0
 R1
@@ -270,33 +270,33 @@ VW6PI^1e7BB7;@Rm8<Nf@f1
 !s100 Tnd3O?>zB0laC7?G73QhH3
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 6 ex_mem 0 22 W6PI^1e7BB7;@Rm8<Nf@f1
 32
-R8
+R13
 l40
 L38
 VEAFW@C6@HzhNN4QA1hOUV2
 !s100 Bo3omQQoEX3KI7O`<0JFU1
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Efixed_value_input
 Z29 w1543342208
 R1
@@ -311,33 +311,33 @@ VkC@9;HI3RlDWjhCWAX51]0
 !s100 <W53>@`lXfjgmB5`i_2SQ0
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 17 fixed_value_input 0 22 kC@9;HI3RlDWjhCWAX51]0
 32
-R8
+R13
 l16
 L14
 V4NYhdE9AU@:0=;`@93EkV3
 !s100 Gc9dZKP6PYVlj^[ZJZYXU2
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eforwarding
 Z32 w1543187986
 R1
@@ -352,56 +352,97 @@ V6>O37aLi]:o?YQazHjIFh1
 !s100 cAnL0fS=XzoAfdRIHUBNB1
 R7
 32
-R8
+Z35 !s110 1543342219
 !i10b 1
-R9
-R10
-R11
+Z36 !s108 1543342218.000000
+Z37 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|
+Z38 !s107 U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 10 forwarding 0 22 6>O37aLi]:o?YQazHjIFh1
 32
-R8
+R35
 l20
 L18
 V:ZnP8GoHS^NgWWD3MFPd=1
 !s100 gfAIlYFi8jATDdoInd7JM0
 R7
 !i10b 1
+R36
+R37
+R38
+!i113 0
+R11
+R12
+Eforwarding_unit
+Z39 w1543456171
+R1
+R2
+R3
+R4
+Z40 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding_unit.vhd
+Z41 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding_unit.vhd
+l0
+L5
+VcGK9Ad7:BlWcA?SND1TG^3
+!s100 ?Td463Clc1IA2<:?WRE0m0
+R7
+32
+R13
+!i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
+Amixed
+R1
+R2
+R3
+DEx4 work 15 forwarding_unit 0 22 cGK9Ad7:BlWcA?SND1TG^3
+32
 R13
+l16
+L12
+Vnoo=ad;EoMV7?D?IYRU;11
+!s100 L0TkL92O6NZBHC:UIYoLA1
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
 Ehazard
-Z35 w1543187921
+Z42 w1543187921
 R24
 R23
 R2
 R3
 R4
-Z36 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd
-Z37 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd
+Z43 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd
+Z44 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd
 l0
 L5
 V2olHFiaM65V>e4]kW9Zo<1
 !s100 hkc>S?gOLU3HK8>JQF1XX2
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R24
 R23
@@ -409,101 +450,101 @@ R2
 R3
 DEx4 work 6 hazard 0 22 2olHFiaM65V>e4]kW9Zo<1
 32
-R8
+R13
 l30
 L28
 V;OTj3lfMZY1FchOIT;8FM2
 !s100 ddU]98SljTgOH42idcjFU1
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eid_ex
 R0
 R1
 R2
 R3
 R4
-Z38 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd
-Z39 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd
+Z45 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd
+Z46 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd
 l0
 L5
 VIT8_FL9=DijHg4hN=PDd]3
 !s100 TXc;CFDzE`YNjY96L8Y:G2
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 5 id_ex 0 22 IT8_FL9=DijHg4hN=PDd]3
 32
-R8
+R13
 l50
 L48
 V7l76:z7FT`9?W_Yc0:L^52
 !s100 `H<9W@ci8E7OX3bE<OiIR0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eif_id
 R0
 R1
 R2
 R3
 R4
-Z40 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd
-Z41 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd
+Z47 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd
+Z48 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd
 l0
 L5
 V>B?<jHd4m?lYf6h[]d27M1
 !s100 Eo9j@Wm2C<bXW>a3F`1SI1
 R7
 32
-R8
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 5 if_id 0 22 >B?<jHd4m?lYf6h[]d27M1
 32
-R8
+R13
 l16
 L14
 V8FJNHzKO6boC:H7B<FF0H2
 !s100 MBH3bkLW>FTQJV7G3KiSc0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eimem
 R0
 R23
@@ -511,22 +552,22 @@ R24
 R2
 R3
 R4
-Z42 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd
-Z43 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd
+Z49 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd
+Z50 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd
 l0
 L24
 VQ7P:dbMzVmNaDUb1_:IVk0
 !s100 ;:C@ekial1:hh0oimdP3>3
 R7
 32
-Z44 !s110 1543342220
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Abehavioral
 R23
 R24
@@ -534,205 +575,205 @@ R2
 R3
 DEx4 work 4 imem 0 22 Q7P:dbMzVmNaDUb1_:IVk0
 32
-R44
+R13
 l482
 L35
 V<:Z5On@^KZViVV7LjCG1Z3
 !s100 6UBLDD7nKFLM30^2gU3ok2
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Ejumpaddrgnrt
-Z45 w1539109727
+Z51 w1539109727
 R1
 R2
 R3
 R4
-Z46 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd
-Z47 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd
+Z52 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd
+Z53 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd
 l0
 L5
 VlGhD=LOlA08h^mG0ML<LK3
 !s100 4]oNBH^SY3^B0UNhg2gMe2
 R7
 32
-Z48 !s110 1543185339
+Z54 !s110 1543185339
 !i10b 1
-Z49 !s108 1543185338.000000
-Z50 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|
-Z51 !s107 U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|
+Z55 !s108 1543185338.000000
+Z56 !s90 -reportprogress|300|-work|work|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|
+Z57 !s107 U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpAddrGNRT.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/imem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/if_id.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/id_ex.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/hazard.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/forwarding.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/fixed_value_input.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ex_mem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/dmem.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/branch_comparator.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/bit32_mux_2to1.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/and_2.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/ALU.vhd|U:/CPRE381/cpre-381-projecta/Shubham_ProjB/adder_32.vhd|
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 12 jumpaddrgnrt 0 22 lGhD=LOlA08h^mG0ML<LK3
 32
-R48
+R54
 l14
 L12
 VR<GX0H>985SNCID9DULco3
 !s100 XU4:NAC3Ij@;V5@]M=XGL3
 R7
 !i10b 1
-R49
-R50
-R51
+R55
+R56
+R57
 !i113 0
+R11
 R12
-R13
 Ejumphandler
 R0
 R1
 R2
 R3
 R4
-Z52 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd
-Z53 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd
+Z58 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd
+Z59 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/jumpHandler.vhd
 l0
 L5
 V8cUcgmPLQzlo4[C?GP4K@1
 !s100 fVfSYQIJZ3g2RbLBLeGz=3
 R7
 32
-R44
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 11 jumphandler 0 22 8cUcgmPLQzlo4[C?GP4K@1
 32
-R44
+R13
 l14
 L12
 VCW[CHblLlzz77O@QYdL>n3
 !s100 O_K:WQPDWSNHC0nnSJ2IO0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emain_control
 R0
 R1
 R2
 R3
 R4
-Z54 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd
-Z55 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd
+Z60 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd
+Z61 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/main_control.vhd
 l0
 L5
 VFRNRWa1UfO_>AOz:8CUZF3
 !s100 i^g9aQzd4?KVgPb7ZUn>23
 R7
 32
-R44
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 12 main_control 0 22 FRNRWa1UfO_>AOz:8CUZF3
 32
-R44
+R13
 l24
 L18
 VAFd[gJWC9`^>b7X^`LOoV0
 !s100 W[9@7P9IR351>jc@A]fAc3
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emem_wb
 R0
 R1
 R2
 R3
 R4
-Z56 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd
-Z57 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd
+Z62 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd
+Z63 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mem_wb.vhd
 l0
 L5
 VQOA>VLe7HV27_^Ve@Qg`83
 !s100 41QfeRWiW:7f9G@=F3?>10
 R7
 32
-R44
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 6 mem_wb 0 22 QOA>VLe7HV27_^Ve@Qg`83
 32
-R44
+R13
 l41
 L39
 V1;2zdmR6d]JgNDH33T^Gh1
 !s100 AUjIHb8S;^ZRg_K4mMQBg3
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emux21_1bit
 R0
 R1
 R2
 R3
 R4
-Z58 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd
-Z59 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd
+Z64 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd
+Z65 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_1bit.vhd
 l0
 L5
 VlF1Cj@36E6km`3JPPA9=O1
 !s100 SIHe3]Q60iOJ5h=e5=^Dc0
 R7
 32
-R44
+Z66 !s110 1543470113
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
@@ -744,117 +785,117 @@ V87U:b22USN0kNIY`b[3_[1
 !s100 Q1ING><NR6emP3?XbAW[I1
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emux21_32bit
 R0
 R1
 R2
 R3
 R4
-Z60 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd
-Z61 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd
+Z67 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd
+Z68 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_32bit.vhd
 l0
 L5
 V6oPYC5`D>j65aD0CEgD_23
 !s100 gMWSROBmKcgSLaeGGchYQ1
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 11 mux21_32bit 0 22 6oPYC5`D>j65aD0CEgD_23
 32
-R44
+R66
 l13
 L11
 Ved2fcbcc^h9o_ak^RDzYA2
 !s100 35lKhO<@n09CbU14>OUjb1
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emux21_5bit
 R0
 R1
 R2
 R3
 R4
-Z62 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd
-Z63 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd
+Z69 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd
+Z70 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux21_5bit.vhd
 l0
 L5
 VTY2D`W;]i`OAP3ZM4@^]O2
 !s100 3Ke0CNONJ:gj14j=ck<Z?3
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 10 mux21_5bit 0 22 TY2D`W;]i`OAP3ZM4@^]O2
 32
-R44
+R66
 l13
 L11
 VoH[;KIQn0<=SDnZ;KUcbK0
 !s100 ZCiZ4l:7ikI<3HzVb[cmM0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emux32bit_2to1
 R0
 R2
 R3
 R4
-Z64 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd
-Z65 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd
+Z71 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd
+Z72 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux32bit_2to1.vhd
 l0
 L6
 VHb>cU;g7ZBZiXj:6f0aBG2
 !s100 _k690eA78z:?k80<]>nRm0
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Astructure
 R2
 R3
@@ -865,76 +906,76 @@ Vd1J0@mNMSaM:dk:SIa2mV2
 !s100 QA3ojFbH]k>Dl43AM6e980
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emux3_to_31bit
-Z66 w1543181181
+Z73 w1543181181
 R1
 R2
 R3
 R4
-Z67 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd
-Z68 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd
+Z74 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd
+Z75 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux3_to_31bit.vhd
 l0
 L5
 VPC;[2kLRCzedGnDzfLlLB1
 !s100 NjPo5oe?`<SCFXWl1WBF43
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 13 mux3_to_31bit 0 22 PC;[2kLRCzedGnDzfLlLB1
 32
-R44
+R66
 l15
 L13
 V]fTiHAlQd_>Fi=_IYO?[93
 !s100 m8o_PZ8jf_S3S@`1m>91D2
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Emux_bit32_2to1
 R0
 R2
 R3
 R4
-Z69 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd
-Z70 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd
+Z76 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd
+Z77 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/mux_32bit_2to1.vhd
 l0
 L6
 VaoKgcLJV=:TL2bIDC_zhU2
 !s100 Y8fdn0z476ZmH>SV<kI[W1
 R7
 32
-R44
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Astructure
 R2
 R3
@@ -945,116 +986,116 @@ V@[Pco0813lZ4>>dYaH[B53
 !s100 ^68fYb2?RG?226]nIVZ`12
 R7
 32
-R44
+R13
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Epc_reg
 R0
 R1
 R2
 R3
 R4
-Z71 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd
-Z72 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd
+Z78 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd
+Z79 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/pc_reg.vhd
 l0
 L5
 VkEaCYaQlV:i>m8:3JQj8>1
 !s100 <8a@gzNJ6O7T2D@=m0ccP0
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 6 pc_reg 0 22 kEaCYaQlV:i>m8:3JQj8>1
 32
-R44
+R66
 l15
 L13
 V:W2FFko=XT5JQjI9lNI6f2
 !s100 3PU]IIPEL^18Zn[UUW]f72
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Epipeline_mips
-Z73 w1543325324
+Z80 w1543470088
 R2
 R3
 R4
-Z74 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd
-Z75 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd
+Z81 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd
+Z82 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/Pipeline_MIPS.vhd
 l0
 L24
 V6:bKQFCL`A3bzBFoVz=E:3
 !s100 R6g_Q>>K0D<FSWD]zLWIH3
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Abdf_type
 R2
 R3
 DEx4 work 13 pipeline_mips 0 22 6:bKQFCL`A3bzBFoVz=E:3
 32
-R44
-l395
+R66
+l405
 L36
-V@Mz6K@Wa>@Z8Tniz5M3lZ2
-!s100 aG>e]D_j8RQV>RUZF9Oh51
+V8dHg<Q:<gCUFB5Zebb:=?3
+!s100 6lc75d;HEl0jQe@72V81X1
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Epipeline_register_template
 R0
 R1
 R2
 R3
 R4
-Z76 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd
-Z77 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd
+Z83 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd
+Z84 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/pipeline_register_template.vhd
 l0
 L5
 Ve618h`h0dF7k`FC4BW@A40
 !s100 L;z30aJo05L`Z06Lz23hA3
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
@@ -1066,175 +1107,175 @@ V3Gb317[`JdZFRP8]3N[EI3
 !s100 I4Y``6OaLPl>g>WRG1HZE1
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Eregister_file
-Z78 w1543284214
+Z85 w1543284214
 R1
 R2
 R3
 R4
-Z79 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd
-Z80 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd
+Z86 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd
+Z87 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/register_file.vhd
 l0
 L5
 VQ6leQA8D^DY66f;oFFWLY2
 !s100 0;6l8OR7N:fQ8?E^89Gj30
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 13 register_file 0 22 Q6leQA8D^DY66f;oFFWLY2
 32
-R44
+R66
 l23
 L17
 V6Z2aF^ICX`E0SAGSRLRi62
 !s100 a`d=PG[>:QXdoV:AG2L1e0
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Esign_extender_16_32
 R0
 R1
 R2
 R3
 R4
-Z81 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd
-Z82 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd
+Z88 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd
+Z89 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_16_32.vhd
 l0
 L5
 VaN?9MoJDKib6EW:O0O1:a1
 !s100 fG?LOX^^lH4;UE9fMB]Z^2
 R7
 32
-R44
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 19 sign_extender_16_32 0 22 aN?9MoJDKib6EW:O0O1:a1
 32
-R44
+R66
 l12
 L10
 VMYK5R2Ll3Sen342GSSBX^0
 !s100 @@jWTG6SS0InUNlbG;c2R3
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Esign_extender_26_32
 R0
 R1
 R2
 R3
 R4
-Z83 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd
-Z84 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd
+Z90 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd
+Z91 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/sign_extender_26_32.vhd
 l0
 L5
 V6V4hiPT7J[[eXn3Bf3gZ:0
 !s100 Z<b6VF[kVke:ZI;SlWfnJ1
 R7
 32
-Z85 !s110 1543342221
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 19 sign_extender_26_32 0 22 6V4hiPT7J[[eXn3Bf3gZ:0
 32
-R85
+R66
 l12
 L10
 VIflOa_z]Fo5Flc2I<QPHP0
 !s100 g@[NUmSJk=6L>`ZO<Qg?k3
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Esll_2
 R0
 R1
 R2
 R3
 R4
-Z86 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd
-Z87 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd
+Z92 8U:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd
+Z93 FU:/CPRE381/cpre-381-projecta/Shubham_ProjB/sll_2.vhd
 l0
 L6
 VXc@hB9XhAN6zgZmeZB3FW1
 !s100 F_z?LI[IV_bC@Y_G05@mn2
 R7
 32
-R85
+R66
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13
 Amixed
 R1
 R2
 R3
 DEx4 work 5 sll_2 0 22 Xc@hB9XhAN6zgZmeZB3FW1
 32
-R85
+R66
 l13
 L11
 VSkZT83;V9zFeL7dzb;4a21
 !s100 8;o^EcbggZLl8njhZbT;02
 R7
 !i10b 1
+R8
 R9
 R10
-R11
 !i113 0
+R11
 R12
-R13

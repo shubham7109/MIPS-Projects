@@ -3,8 +3,8 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 entity forwarding_unit is
-  port( EX_MEM_RegisterRd, ID_EX_RegisterRs, ID_EX_RegisterRt, MEM_WB_RegisterRd, IF_ID_RegisterRs, IF_ID_RegisterRt, EX_MEM_WRITE_REG_SEL, ID_EX_RegisterRd : in std_logic_vector(4 downto 0);
-		EX_MEM_RegWrite, MEM_WB_RegWrite, EX_MEM_MEM_TO_REG, ID_EX_RegWrite, ID_RegWrite: std_logic;
+  port( EX_MEM_RegisterRd, ID_EX_RegisterRs, ID_EX_RegisterRt, MEM_WB_RegisterRd, IF_ID_RegisterRs, IF_ID_RegisterRt, ID_EX_RegisterRd : in std_logic_vector(4 downto 0);
+		EX_MEM_RegWrite, MEM_WB_RegWrite, ID_EX_RegWrite: std_logic;
   	    ForwardA, ForwardB : out std_logic_vector(1 downto 0);
 		ForwardC, ForwardD : out std_logic);
  end forwarding_unit;

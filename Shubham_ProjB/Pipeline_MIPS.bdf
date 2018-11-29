@@ -656,7 +656,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 2376 968 2584 1144)
+	(rect 2384 968 2592 1144)
 	(text "register_file" (rect 5 0 62 12)(font "Arial" ))
 	(text "inst" (rect 8 160 25 172)(font "Arial" ))
 	(port
@@ -1286,7 +1286,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 3496 592 3688 704)
+	(rect 3528 592 3720 704)
 	(text "mux21_32bit" (rect 5 0 67 12)(font "Arial" ))
 	(text "inst43" (rect 8 96 36 113)(font "Intel Clear" ))
 	(port
@@ -1844,9 +1844,9 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 3472 1768 3792 2040)
+	(rect 3448 1752 3728 1960)
 	(text "forwarding_unit" (rect 5 0 79 12)(font "Arial" ))
-	(text "inst7" (rect 8 256 30 273)(font "Intel Clear" ))
+	(text "inst1" (rect 8 192 30 209)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -1892,82 +1892,61 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 128)
 		(input)
-		(text "EX_MEM_WRITE_REG_SEL[4..0]" (rect 0 0 165 12)(font "Arial" ))
-		(text "EX_MEM_WRITE_REG_SEL[4..0]" (rect 21 123 186 135)(font "Arial" ))
+		(text "ID_EX_RegisterRd[4..0]" (rect 0 0 118 12)(font "Arial" ))
+		(text "ID_EX_RegisterRd[4..0]" (rect 21 123 139 135)(font "Arial" ))
 		(line (pt 0 128)(pt 16 128)(line_width 3))
 	)
 	(port
 		(pt 0 144)
 		(input)
-		(text "ID_EX_RegisterRd[4..0]" (rect 0 0 118 12)(font "Arial" ))
-		(text "ID_EX_RegisterRd[4..0]" (rect 21 139 139 151)(font "Arial" ))
-		(line (pt 0 144)(pt 16 144)(line_width 3))
+		(text "EX_MEM_RegWrite" (rect 0 0 94 12)(font "Arial" ))
+		(text "EX_MEM_RegWrite" (rect 21 139 115 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144))
 	)
 	(port
 		(pt 0 160)
 		(input)
-		(text "EX_MEM_RegWrite" (rect 0 0 94 12)(font "Arial" ))
-		(text "EX_MEM_RegWrite" (rect 21 155 115 167)(font "Arial" ))
+		(text "MEM_WB_RegWrite" (rect 0 0 99 12)(font "Arial" ))
+		(text "MEM_WB_RegWrite" (rect 21 155 120 167)(font "Arial" ))
 		(line (pt 0 160)(pt 16 160))
 	)
 	(port
 		(pt 0 176)
 		(input)
-		(text "MEM_WB_RegWrite" (rect 0 0 99 12)(font "Arial" ))
-		(text "MEM_WB_RegWrite" (rect 21 171 120 183)(font "Arial" ))
+		(text "ID_EX_RegWrite" (rect 0 0 82 12)(font "Arial" ))
+		(text "ID_EX_RegWrite" (rect 21 171 103 183)(font "Arial" ))
 		(line (pt 0 176)(pt 16 176))
 	)
 	(port
-		(pt 0 192)
-		(input)
-		(text "EX_MEM_MEM_TO_REG" (rect 0 0 121 12)(font "Arial" ))
-		(text "EX_MEM_MEM_TO_REG" (rect 21 187 142 199)(font "Arial" ))
-		(line (pt 0 192)(pt 16 192))
-	)
-	(port
-		(pt 0 208)
-		(input)
-		(text "ID_EX_RegWrite" (rect 0 0 82 12)(font "Arial" ))
-		(text "ID_EX_RegWrite" (rect 21 203 103 215)(font "Arial" ))
-		(line (pt 0 208)(pt 16 208))
-	)
-	(port
-		(pt 0 224)
-		(input)
-		(text "ID_RegWrite" (rect 0 0 63 12)(font "Arial" ))
-		(text "ID_RegWrite" (rect 21 219 84 231)(font "Arial" ))
-		(line (pt 0 224)(pt 16 224))
-	)
-	(port
-		(pt 320 32)
+		(pt 280 32)
 		(output)
 		(text "ForwardA[1..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "ForwardA[1..0]" (rect 239 27 310 39)(font "Arial" ))
-		(line (pt 320 32)(pt 304 32)(line_width 3))
+		(text "ForwardA[1..0]" (rect 199 27 270 39)(font "Arial" ))
+		(line (pt 280 32)(pt 264 32)(line_width 3))
 	)
 	(port
-		(pt 320 48)
+		(pt 280 48)
 		(output)
 		(text "ForwardB[1..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "ForwardB[1..0]" (rect 239 43 310 55)(font "Arial" ))
-		(line (pt 320 48)(pt 304 48)(line_width 3))
+		(text "ForwardB[1..0]" (rect 199 43 270 55)(font "Arial" ))
+		(line (pt 280 48)(pt 264 48)(line_width 3))
 	)
 	(port
-		(pt 320 64)
+		(pt 280 64)
 		(output)
 		(text "ForwardC" (rect 0 0 47 12)(font "Arial" ))
-		(text "ForwardC" (rect 260 59 307 71)(font "Arial" ))
-		(line (pt 320 64)(pt 304 64))
+		(text "ForwardC" (rect 220 59 267 71)(font "Arial" ))
+		(line (pt 280 64)(pt 264 64))
 	)
 	(port
-		(pt 320 80)
+		(pt 280 80)
 		(output)
 		(text "ForwardD" (rect 0 0 47 12)(font "Arial" ))
-		(text "ForwardD" (rect 260 75 307 87)(font "Arial" ))
-		(line (pt 320 80)(pt 304 80))
+		(text "ForwardD" (rect 220 75 267 87)(font "Arial" ))
+		(line (pt 280 80)(pt 264 80))
 	)
 	(drawing
-		(rectangle (rect 16 16 304 256))
+		(rectangle (rect 16 16 264 192))
 	)
 )
 (connector
@@ -1994,37 +1973,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 3480 656)
-	(pt 3496 656)
-)
-(connector
-	(pt 3760 624)
-	(pt 3688 624)
-	(bus)
-)
-(connector
-	(pt 3760 408)
-	(pt 3760 624)
-	(bus)
-)
-(connector
 	(pt 3704 576)
 	(pt 3704 480)
-	(bus)
-)
-(connector
-	(pt 3704 576)
-	(pt 3480 576)
-	(bus)
-)
-(connector
-	(pt 3480 576)
-	(pt 3480 624)
-	(bus)
-)
-(connector
-	(pt 3480 624)
-	(pt 3496 624)
 	(bus)
 )
 (connector
@@ -2033,18 +1983,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 3464 640)
-	(pt 3496 640)
-	(bus)
-)
-(connector
 	(pt 2944 328)
 	(pt 2848 328)
-	(bus)
-)
-(connector
-	(pt 3464 328)
-	(pt 3464 640)
 	(bus)
 )
 (connector
@@ -2131,26 +2071,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1832 1000)
-	(pt 2376 1000)
-)
-(connector
-	(pt 1832 968)
-	(pt 1832 1000)
-)
-(connector
-	(pt 2584 1016)
-	(pt 2656 1016)
-	(bus)
-)
-(connector
 	(pt 2536 1848)
 	(pt 2536 1512)
-	(bus)
-)
-(connector
-	(pt 2640 1000)
-	(pt 2584 1000)
 	(bus)
 )
 (connector
@@ -2179,10 +2101,6 @@ refer to the applicable agreement for further details.
 	(pt 2096 1704)
 	(pt 2608 1704)
 	(bus)
-)
-(connector
-	(pt 2376 1080)
-	(pt 2360 1080)
 )
 (connector
 	(pt 2672 1288)
@@ -2404,16 +2322,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 3080 1832)
-	(pt 3080 1968)
-	(bus)
-)
-(connector
-	(pt 2944 1832)
-	(pt 3080 1832)
-	(bus)
-)
-(connector
 	(pt 3080 1968)
 	(pt 3096 1968)
 	(bus)
@@ -2516,10 +2424,6 @@ refer to the applicable agreement for further details.
 	(pt 3408 1232)
 )
 (connector
-	(pt 2944 1752)
-	(pt 3408 1752)
-)
-(connector
 	(pt 3408 1232)
 	(pt 3408 1752)
 )
@@ -2594,11 +2498,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 3024 1448)
 	(pt 3072 1448)
-)
-(connector
-	(pt 3808 1184)
-	(pt 3888 1184)
-	(bus)
 )
 (connector
 	(text "mem_ALU_out[31..0]" (rect 4031 875 4043 980)(font "Arial" )(vertical))
@@ -2805,10 +2704,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2360 1080)
-	(pt 2360 944)
-)
-(connector
 	(pt 2848 944)
 	(pt 2360 944)
 )
@@ -2825,16 +2720,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 3000 1272)
 	(pt 2912 1272)
-	(bus)
-)
-(connector
-	(pt 2280 1048)
-	(pt 2376 1048)
-	(bus)
-)
-(connector
-	(pt 2280 1544)
-	(pt 2280 1048)
 	(bus)
 )
 (connector
@@ -2920,16 +2805,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 4800 1040)
 	(pt 4824 1040)
-	(bus)
-)
-(connector
-	(pt 2376 1064)
-	(pt 2320 1064)
-	(bus)
-)
-(connector
-	(pt 2320 1064)
-	(pt 2320 1576)
 	(bus)
 )
 (connector
@@ -3155,26 +3030,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2944 1800)
-	(pt 3432 1800)
-	(bus)
-)
-(connector
-	(pt 3416 1832)
-	(pt 3432 1832)
-	(bus)
-)
-(connector
-	(pt 3432 1848)
-	(pt 3424 1848)
-	(bus)
-)
-(connector
-	(pt 3424 1576)
-	(pt 3424 1848)
-	(bus)
-)
-(connector
 	(pt 2896 1512)
 	(pt 2896 1184)
 	(bus)
@@ -3187,12 +3042,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 2928 1304)
 	(pt 2928 1504)
-	(bus)
-)
-(connector
-	(text "id_instruction[20..16]" (rect 2328 1716 2340 1818)(font "Arial" )(vertical))
-	(pt 2344 1032)
-	(pt 2344 1880)
 	(bus)
 )
 (connector
@@ -3488,16 +3337,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2944 1816)
-	(pt 3088 1816)
-	(bus)
-)
-(connector
-	(pt 3088 1816)
-	(pt 3432 1816)
-	(bus)
-)
-(connector
 	(pt 3376 1280)
 	(pt 3376 1952)
 	(bus)
@@ -3508,43 +3347,8 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2320 1576)
-	(pt 3424 1576)
-	(bus)
-)
-(connector
-	(pt 3424 1576)
-	(pt 4824 1576)
-	(bus)
-)
-(connector
-	(pt 2344 1032)
-	(pt 2376 1032)
-	(bus)
-)
-(connector
-	(pt 760 1880)
-	(pt 2344 1880)
-	(bus)
-)
-(connector
-	(pt 2344 1880)
-	(pt 2608 1880)
-	(bus)
-)
-(connector
-	(pt 2336 1016)
-	(pt 2376 1016)
-	(bus)
-)
-(connector
 	(pt 776 1864)
 	(pt 2336 1864)
-	(bus)
-)
-(connector
-	(pt 2336 1864)
-	(pt 2608 1864)
 	(bus)
 )
 (connector
@@ -3607,18 +3411,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "id_instruction[25..21]" (rect 2162 1000 2259 1017)(font "Intel Clear" ))
-	(pt 2136 1016)
-	(pt 2336 1016)
-	(bus)
-)
-(connector
-	(text "id_instruction[20..16]" (rect 2198 1016 2295 1033)(font "Intel Clear" ))
-	(pt 2136 1032)
-	(pt 2344 1032)
-	(bus)
-)
-(connector
 	(pt 5320 968)
 	(pt 5312 968)
 	(bus)
@@ -3665,14 +3457,6 @@ refer to the applicable agreement for further details.
 	(pt 1528 1184)
 	(pt 1528 1064)
 	(bus)
-)
-(connector
-	(pt 2376 1096)
-	(pt 2368 1096)
-)
-(connector
-	(pt 2368 1096)
-	(pt 2368 1216)
 )
 (connector
 	(pt 2368 1216)
@@ -3972,20 +3756,8 @@ refer to the applicable agreement for further details.
 	(pt 4840 992)
 )
 (connector
-	(pt 3480 560)
-	(pt 2912 560)
-)
-(connector
 	(pt 2912 808)
 	(pt 2912 560)
-)
-(connector
-	(pt 3480 560)
-	(pt 3480 576)
-)
-(connector
-	(pt 3480 624)
-	(pt 3480 656)
 )
 (connector
 	(pt 3512 1120)
@@ -4018,11 +3790,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 3488 1104)
 	(pt 3488 584)
-)
-(connector
-	(pt 2640 912)
-	(pt 2640 1000)
-	(bus)
 )
 (connector
 	(pt 2936 832)
@@ -4152,11 +3919,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2656 1016)
-	(pt 2656 928)
-	(bus)
-)
-(connector
 	(pt 2640 912)
 	(pt 2872 912)
 	(bus)
@@ -4192,21 +3954,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 2896 792)
-	(pt 3232 792)
-	(bus)
-)
-(connector
-	(pt 2896 848)
-	(pt 2896 792)
-	(bus)
-)
-(connector
-	(pt 2896 792)
-	(pt 2896 712)
-	(bus)
-)
-(connector
 	(pt 2936 864)
 	(pt 2928 864)
 )
@@ -4239,30 +3986,12 @@ refer to the applicable agreement for further details.
 	(pt 3440 936)
 )
 (connector
-	(pt 3424 1472)
-	(pt 3848 1472)
-)
-(connector
-	(pt 3848 1472)
-	(pt 3848 1832)
-)
-(connector
 	(pt 2928 1504)
 	(pt 3856 1504)
 	(bus)
 )
 (connector
-	(pt 3856 1504)
-	(pt 3856 1832)
-	(bus)
-)
-(connector
 	(pt 3840 1744)
-	(pt 3416 1744)
-	(bus)
-)
-(connector
-	(pt 3416 1832)
 	(pt 3416 1744)
 	(bus)
 )
@@ -4281,17 +4010,8 @@ refer to the applicable agreement for further details.
 	(pt 3824 1456)
 )
 (connector
-	(pt 3824 1456)
-	(pt 3824 1824)
-)
-(connector
 	(pt 2896 1512)
 	(pt 3864 1512)
-	(bus)
-)
-(connector
-	(pt 3864 1512)
-	(pt 3864 1824)
 	(bus)
 )
 (connector
@@ -4312,27 +4032,414 @@ refer to the applicable agreement for further details.
 )
 (connector
 	(pt 4008 2104)
-	(pt 3440 2104)
+	(pt 3408 2104)
 )
 (connector
-	(pt 3472 1928)
-	(pt 3440 1928)
+	(pt 2496 1976)
+	(pt 3040 1976)
+	(bus)
 )
 (connector
-	(pt 3440 2104)
-	(pt 3440 1928)
+	(pt 2496 1976)
+	(pt 2496 1864)
+	(bus)
 )
 (connector
+	(pt 2496 1864)
+	(pt 2608 1864)
+	(bus)
+)
+(connector
+	(pt 2480 1992)
+	(pt 3056 1992)
+	(bus)
+)
+(connector
+	(pt 2480 1880)
+	(pt 2480 1992)
+	(bus)
+)
+(connector
+	(pt 2480 1880)
+	(pt 2608 1880)
+	(bus)
+)
+(connector
+	(pt 3080 1968)
+	(pt 3080 1832)
+	(bus)
+)
+(connector
+	(pt 2944 1832)
+	(pt 3080 1832)
+	(bus)
+)
+(connector
+	(pt 3080 1832)
+	(pt 3352 1832)
+	(bus)
+)
+(connector
+	(pt 3424 1576)
+	(pt 3424 1832)
+	(bus)
+)
+(connector
+	(pt 3416 1744)
+	(pt 3416 1784)
+	(bus)
+)
+(connector
+	(pt 3040 1976)
+	(pt 3040 1848)
+	(bus)
+)
+(connector
+	(pt 3056 1992)
+	(pt 3056 1864)
+	(bus)
+)
+(connector
+	(pt 3352 1832)
+	(pt 3352 1880)
+	(bus)
+)
+(connector
+	(pt 3408 2104)
+	(pt 3408 1896)
+)
+(connector
+	(pt 3424 2120)
+	(pt 3424 1912)
+)
+(connector
+	(pt 2944 1816)
+	(pt 3088 1816)
+	(bus)
+)
+(connector
+	(pt 2320 1576)
+	(pt 3424 1576)
+	(bus)
+)
+(connector
+	(pt 3424 1576)
+	(pt 4824 1576)
+	(bus)
+)
+(connector
+	(pt 3416 1784)
+	(pt 3448 1784)
+	(bus)
+)
+(connector
+	(pt 2944 1800)
+	(pt 3448 1800)
+	(bus)
+)
+(connector
+	(pt 3088 1816)
+	(pt 3448 1816)
+	(bus)
+)
+(connector
+	(pt 3424 1832)
+	(pt 3448 1832)
+	(bus)
+)
+(connector
+	(pt 3040 1848)
+	(pt 3448 1848)
+	(bus)
+)
+(connector
+	(pt 3056 1864)
+	(pt 3448 1864)
+	(bus)
+)
+(connector
+	(pt 3352 1880)
+	(pt 3448 1880)
+	(bus)
+)
+(connector
+	(pt 3408 1896)
+	(pt 3448 1896)
+)
+(connector
+	(pt 3424 1912)
+	(pt 3448 1912)
+)
+(connector
+	(pt 3400 1752)
+	(pt 3400 1928)
+)
+(connector
+	(pt 2944 1752)
+	(pt 3400 1752)
+)
+(connector
+	(pt 3400 1752)
+	(pt 3408 1752)
+)
+(connector
+	(pt 3448 1928)
+	(pt 3400 1928)
+)
+(connector
+	(pt 3824 1832)
+	(pt 3824 1456)
+)
+(connector
+	(pt 3824 1832)
+	(pt 3728 1832)
+)
+(connector
+	(pt 3424 1472)
+	(pt 3808 1472)
+)
+(connector
+	(pt 3808 1472)
+	(pt 3808 1816)
+)
+(connector
+	(pt 3808 1816)
+	(pt 3728 1816)
+)
+(connector
+	(pt 3856 1800)
+	(pt 3856 1504)
+	(bus)
+)
+(connector
+	(pt 3856 1800)
+	(pt 3728 1800)
+	(bus)
+)
+(connector
+	(pt 3864 1784)
+	(pt 3864 1512)
+	(bus)
+)
+(connector
+	(pt 3864 1784)
+	(pt 3728 1784)
+	(bus)
+)
+(connector
+	(pt 3832 792)
+	(pt 3832 1184)
+	(bus)
+)
+(connector
+	(pt 3808 1184)
+	(pt 3832 1184)
+	(bus)
+)
+(connector
+	(pt 3832 1184)
+	(pt 3888 1184)
+	(bus)
+)
+(connector
+	(pt 2896 792)
+	(pt 3832 792)
+	(bus)
+)
+(connector
+	(pt 2896 712)
+	(pt 2896 792)
+	(bus)
+)
+(connector
+	(pt 2896 792)
+	(pt 2896 848)
+	(bus)
+)
+(connector
+	(pt 2360 1032)
+	(pt 2360 944)
+)
+(connector
+	(text "id_instruction[25..21]" (rect 2387 1840 2484 1857)(font "Intel Clear" ))
+	(pt 2336 1864)
+	(pt 2496 1864)
+	(bus)
+)
+(connector
+	(pt 1832 968)
+	(pt 1832 1000)
+)
+(connector
+	(pt 2656 1016)
+	(pt 2592 1016)
+	(bus)
+)
+(connector
+	(pt 2640 1000)
+	(pt 2592 1000)
+	(bus)
+)
+(connector
+	(pt 2280 1544)
+	(pt 2280 1048)
+	(bus)
+)
+(connector
+	(pt 2320 1576)
+	(pt 2320 1064)
+	(bus)
+)
+(connector
+	(pt 2368 1216)
+	(pt 2368 1096)
+)
+(connector
+	(pt 2640 912)
+	(pt 2640 1000)
+	(bus)
+)
+(connector
+	(pt 2656 928)
+	(pt 2656 1016)
+	(bus)
+)
+(connector
+	(text "id_instruction[25..21]" (rect 2162 1000 2259 1017)(font "Intel Clear" ))
+	(pt 2136 1016)
+	(pt 2336 1016)
+	(bus)
+)
+(connector
+	(pt 1832 1000)
+	(pt 2384 1000)
+)
+(connector
+	(pt 2336 1016)
+	(pt 2384 1016)
+	(bus)
+)
+(connector
+	(pt 2280 1048)
+	(pt 2384 1048)
+	(bus)
+)
+(connector
+	(pt 2320 1064)
+	(pt 2384 1064)
+	(bus)
+)
+(connector
+	(pt 2368 1096)
+	(pt 2384 1096)
+)
+(connector
+	(text "id_instruction[20..16]" (rect 2368 1716 2380 1818)(font "Arial" )(vertical))
+	(pt 2384 1880)
+	(pt 2384 1184)
+	(bus)
+)
+(connector
+	(pt 760 1880)
+	(pt 2384 1880)
+	(bus)
+)
+(connector
+	(text "id_instruction[20..16]" (rect 2387 1864 2484 1881)(font "Intel Clear" ))
+	(pt 2384 1880)
+	(pt 2480 1880)
+	(bus)
+)
+(connector
+	(pt 2304 1184)
+	(pt 2384 1184)
+	(bus)
+)
+(connector
+	(pt 2304 1032)
+	(pt 2304 1184)
+	(bus)
+)
+(connector
+	(text "id_instruction[20..16]" (rect 2198 1016 2295 1033)(font "Intel Clear" ))
+	(pt 2136 1032)
+	(pt 2304 1032)
+	(bus)
+)
+(connector
+	(pt 3424 2120)
 	(pt 4840 2120)
+)
+(connector
+	(pt 2352 1080)
+	(pt 2384 1080)
+)
+(connector
+	(pt 2352 2120)
+	(pt 2352 1080)
+)
+(connector
+	(pt 2352 2120)
 	(pt 3424 2120)
 )
 (connector
-	(pt 3464 1944)
-	(pt 3424 1944)
+	(text "id_instruction[20..16]" (rect 2323 1016 2420 1033)(font "Intel Clear" ))
+	(pt 2304 1032)
+	(pt 2360 1032)
+	(bus)
 )
 (connector
-	(pt 3424 2120)
-	(pt 3424 1944)
+	(text "id_instruction[20..16]" (rect 2374 1016 2471 1033)(font "Intel Clear" ))
+	(pt 2360 1032)
+	(pt 2384 1032)
+	(bus)
+)
+(connector
+	(pt 3760 624)
+	(pt 3720 624)
+	(bus)
+)
+(connector
+	(pt 3760 408)
+	(pt 3760 624)
+	(bus)
+)
+(connector
+	(pt 3464 328)
+	(pt 3464 640)
+	(bus)
+)
+(connector
+	(pt 3464 640)
+	(pt 3528 640)
+	(bus)
+)
+(connector
+	(pt 3480 656)
+	(pt 3528 656)
+)
+(connector
+	(pt 3504 576)
+	(pt 3504 624)
+	(bus)
+)
+(connector
+	(pt 3528 624)
+	(pt 3504 624)
+	(bus)
+)
+(connector
+	(pt 3504 576)
+	(pt 3704 576)
+	(bus)
+)
+(connector
+	(pt 2912 560)
+	(pt 3480 560)
+)
+(connector
+	(pt 3480 560)
+	(pt 3480 656)
 )
 (junction (pt 1448 1016))
 (junction (pt 1496 1048))
@@ -4366,8 +4473,6 @@ refer to the applicable agreement for further details.
 (junction (pt 3424 1576))
 (junction (pt 4824 992))
 (junction (pt 4008 1168))
-(junction (pt 2344 1032))
-(junction (pt 2344 1880))
 (junction (pt 2336 1016))
 (junction (pt 2336 1864))
 (junction (pt 2704 824))
@@ -4377,7 +4482,15 @@ refer to the applicable agreement for further details.
 (junction (pt 1800 608))
 (junction (pt 2704 776))
 (junction (pt 3296 624))
-(junction (pt 3480 576))
 (junction (pt 2560 712))
 (junction (pt 2632 784))
+(junction (pt 2496 1864))
+(junction (pt 2480 1880))
+(junction (pt 3080 1832))
+(junction (pt 3400 1752))
+(junction (pt 3832 1184))
 (junction (pt 2896 792))
+(junction (pt 2360 1032))
+(junction (pt 2384 1880))
+(junction (pt 2304 1032))
+(junction (pt 3424 2120))
